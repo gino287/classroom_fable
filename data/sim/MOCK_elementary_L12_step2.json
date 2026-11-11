@@ -1,0 +1,2935 @@
+{
+ "format_version": "0.1",
+ "school": "elementary school",
+ "lecture_id": 12,
+ "source": "MOCK",
+ "step": 2,
+ "revealed_qids": [
+  1,
+  2,
+  3
+ ],
+ "settings": {
+  "model": "MOCK（公式產生，沒有用 LLM）",
+  "temperature": null,
+  "n_students": 16,
+  "seed": 20261111,
+  "mock_fidelity": 0.7,
+  "mock_bias": 0.02,
+  "notes": "假資料：由 data/make_mock.py 用公式和句型模板產生，不是模擬結果。 第 2 步：揭露第 [1, 2, 3] 題的全班真實答對率後，全班能力平移 -0.41。"
+ },
+ "students": [
+  {
+   "sid": "s01",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "「Medicine」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Taking care of us，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "完全跟不上「Summary」。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "Integrate with our brains 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Solve some of the gravest human problems」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Supporting hardware……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "完全跟不上「Safety issues」。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "「Ethical issues」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "完全跟不上「Unemployment problems」。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "完全跟不上「Summary」。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Medicine」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Natural language application」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Quantum computer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Quantum computer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Integrate with our brains」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Artificial general intelligence (AGI)」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Supporting hardware」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s02",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL INTELLIGENCE: TODAY AND TOM…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Usage of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "Medicine 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Natural language application」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Taking care of us」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "Usage in dangerous situations 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "Supporting hardware 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "Quantum computer……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Artificial general intelligence (AGI)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "完全跟不上「Artificial general intelligence (AGI)」。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "Safety issues 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "「Ethical issues」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "AI may spell the end to human intellig… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Natural language application」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Usage in dangerous situations」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Quantum computer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Integrate with our brains」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Artificial general intelligence (AGI)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Supporting hardware」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Ethical issues」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s03",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL INTELLIGENCE: TODAY AND TOM…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Usage of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "Medicine 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "Natural language application 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "Taking care of us 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "完全跟不上「Usage in dangerous situations」。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "完全跟不上「Solve some of the gravest human problems」。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "「Supporting hardware」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "「Quantum computer」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Artificial general intelligence (AGI)」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "Artificial general intelligence (AGI) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Ethical issues，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「AI may spell the end to human intellig…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "「Q&A」這裡有點亂，跟前面那張差在哪？"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Medicine」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Natural language application」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Usage in dangerous situations」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Summary」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Quantum computer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Integrate with our brains」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Artificial general intelligence (AGI)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Supporting hardware」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Ethical issues」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s04",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "「ARTIFICIAL INTELLIGENCE: TODAY AND TOM…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Usage of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「Taking care of us」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Integrate with our brains」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Solve some of the gravest human problems」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Supporting hardware」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "Quantum computer……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "「Artificial general intelligence (AGI)」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「Safety issues」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "「Ethical issues」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "AI may spell the end to human intellig………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Usage in dangerous situations」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Summary」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Quantum computer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Integrate with our brains」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s05",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL INTELLIGENCE: TODAY AND TOM…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Usage of AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Taking care of us，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「Usage in dangerous situations」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "「Integrate with our brains」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "Solve some of the gravest human problems……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Supporting hardware……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "完全跟不上「Artificial general intelligence (AGI)」。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "Artificial general intelligence (AGI)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "Safety issues……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Ethical issues，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "AI may spell the end to human intellig… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "完全跟不上「Summary」。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Medicine」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Natural language application」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Usage in dangerous situations」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Summary」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Quantum computer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Integrate with our brains」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Supporting hardware」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Ethical issues」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s06",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL INTELLIGENCE: TODAY AND TOM…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "Usage of AI 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Medicine……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "Taking care of us 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Usage in dangerous situations，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Integrate with our brains，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Supporting hardware……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "「Quantum computer」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "完全跟不上「Artificial general intelligence (AGI)」。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "「Ethical issues」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "AI may spell the end to human intellig… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "「Summary」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「Medicine」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Natural language application」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「Usage in dangerous situations」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "Qubits can represent combinations simultaneously.",
+     "correct": 1,
+     "reason": "投影片「Quantum computer」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Integrate with our brains」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Supporting hardware」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Ethical issues」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s07",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL INTELLIGENCE: TODAY AND TOM…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Usage of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Natural language application，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Taking care of us，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Solve some of the gravest human problems」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Supporting hardware」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "完全跟不上「Quantum computer」。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Artificial general intelligence (AGI)」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Safety issues，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Ethical issues，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "AI may spell the end to human intellig… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Medicine」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Quantum computer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "We must do more research on the human brain side",
+     "correct": 1,
+     "reason": "這題跟「Integrate with our brains」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Artificial general intelligence (AGI)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "Spike neurons take as input spikes while tradition neurons take as input continuous value",
+     "correct": 1,
+     "reason": "這題跟「Supporting hardware」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Ethical issues」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s08",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL INTELLIGENCE: TODAY AND TOM…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Usage of AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Natural language application」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「Usage in dangerous situations」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "完全跟不上「Summary」。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "Integrate with our brains 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Solve some of the gravest human problems」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Artificial general intelligence (AGI)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Safety issues」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "Ethical issues……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "AI may spell the end to human intellig………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Unemployment problems，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Medicine」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Natural language application」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Usage in dangerous situations」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "Quantum bit/Qubit",
+     "correct": 1,
+     "reason": "這題跟「Quantum computer」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "Qubits can represent combinations simultaneously.",
+     "correct": 1,
+     "reason": "這題跟「Quantum computer」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Integrate with our brains」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Artificial general intelligence (AGI)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Supporting hardware」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s09",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Usage of AI……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Natural language application，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "Usage in dangerous situations……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Integrate with our brains」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Supporting hardware……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Artificial general intelligence (AGI)」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Safety issues」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "完全跟不上「Ethical issues」。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Unemployment problems，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Medicine」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Usage in dangerous situations」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Summary」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Quantum computer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "Qubits can represent combinations simultaneously.",
+     "correct": 1,
+     "reason": "投影片「Quantum computer」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "We must do more research on the human brain side",
+     "correct": 1,
+     "reason": "投影片「Integrate with our brains」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Artificial general intelligence (AGI)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Supporting hardware」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「Ethical issues」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s10",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Usage of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "Natural language application……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "Usage in dangerous situations 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Summary」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "Outline……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Integrate with our brains，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Supporting hardware」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "「Quantum computer」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Medicine」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "Quantum bit/Qubit",
+     "correct": 1,
+     "reason": "投影片「Quantum computer」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Supporting hardware」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Ethical issues」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s11",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL INTELLIGENCE: TODAY AND TOM…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Usage of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Medicine，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Taking care of us」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "Usage in dangerous situations 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Solve some of the gravest human problems，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "「Supporting hardware」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "「Quantum computer」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Artificial general intelligence (AGI)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "Safety issues 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Unemployment problems」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Medicine」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Natural language application」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Quantum computer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "We must do more research on the human brain side",
+     "correct": 1,
+     "reason": "這題跟「Integrate with our brains」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Artificial general intelligence (AGI)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Ethical issues」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s12",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL INTELLIGENCE: TODAY AND TOM…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Usage of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Medicine」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Taking care of us」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Summary」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Solve some of the gravest human problems，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Supporting hardware……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Quantum computer」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Artificial general intelligence (AGI)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "Safety issues……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「AI may spell the end to human intellig…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Unemployment problems，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Medicine」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Natural language application」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "We should read with caution because a fair amount of hype is often involved",
+     "correct": 1,
+     "reason": "投影片「Summary」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "Qubits can represent combinations simultaneously.",
+     "correct": 1,
+     "reason": "投影片「Quantum computer」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "We must do more research on the human brain side",
+     "correct": 1,
+     "reason": "投影片「Integrate with our brains」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Artificial general intelligence (AGI)」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Supporting hardware」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「Ethical issues」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s13",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Taking care of us，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "Usage in dangerous situations……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "Integrate with our brains……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "完全跟不上「Quantum computer」。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Artificial general intelligence (AGI)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "Safety issues……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「AI may spell the end to human intellig…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Medicine」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Natural language application」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Usage in dangerous situations」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "We must do more research on the human brain side",
+     "correct": 1,
+     "reason": "投影片「Integrate with our brains」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Artificial general intelligence (AGI)」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Ethical issues」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s14",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL INTELLIGENCE: TODAY AND TOM…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Medicine」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "完全跟不上「Taking care of us」。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "完全跟不上「Usage in dangerous situations」。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Solve some of the gravest human problems」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Quantum computer」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "Artificial general intelligence (AGI) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Safety issues，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "Ethical issues 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「AI may spell the end to human intellig…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "Unemployment problems 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Medicine」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Natural language application」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "Qubits can represent combinations simultaneously.",
+     "correct": 1,
+     "reason": "這題跟「Quantum computer」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "We must do more research on the human brain side",
+     "correct": 1,
+     "reason": "投影片「Integrate with our brains」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Artificial general intelligence (AGI)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Supporting hardware」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s15",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Usage of AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "Natural language application……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Taking care of us」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Usage in dangerous situations，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Integrate with our brains，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Solve some of the gravest human problems，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Supporting hardware……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Quantum computer，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Artificial general intelligence (AGI)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "Ethical issues……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「AI may spell the end to human intellig…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Unemployment problems，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Medicine」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Usage in dangerous situations」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Quantum computer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "Qubits can represent combinations simultaneously.",
+     "correct": 1,
+     "reason": "這題跟「Quantum computer」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "We must do more research on the human brain side",
+     "correct": 1,
+     "reason": "這題跟「Integrate with our brains」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "Spike neurons take as input spikes while tradition neurons take as input continuous value",
+     "correct": 1,
+     "reason": "這題跟「Supporting hardware」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Ethical issues」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s16",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL INTELLIGENCE: TODAY AND TOM…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Usage of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Medicine，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Natural language application，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Usage in dangerous situations」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Integrate with our brains」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Supporting hardware……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "Quantum computer……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Artificial general intelligence (AGI)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Safety issues」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Ethical issues，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Unemployment problems」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Medicine」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Natural language application」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Usage in dangerous situations」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "Quantum bit/Qubit",
+     "correct": 1,
+     "reason": "這題跟「Quantum computer」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "Qubits can represent combinations simultaneously.",
+     "correct": 1,
+     "reason": "這題跟「Quantum computer」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Integrate with our brains」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Artificial general intelligence (AGI)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Ethical issues」那張的例子一樣。"
+    }
+   ]
+  }
+ ]
+}

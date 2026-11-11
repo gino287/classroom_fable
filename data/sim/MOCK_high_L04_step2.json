@@ -1,0 +1,2391 @@
+{
+ "format_version": "0.1",
+ "school": "high school",
+ "lecture_id": 4,
+ "source": "MOCK",
+ "step": 2,
+ "revealed_qids": [
+  1,
+  2,
+  3
+ ],
+ "settings": {
+  "model": "MOCK（公式產生，沒有用 LLM）",
+  "temperature": null,
+  "n_students": 16,
+  "seed": 20261111,
+  "mock_fidelity": 0.9,
+  "mock_bias": -0.81,
+  "notes": "假資料：由 data/make_mock.py 用公式和句型模板產生，不是模擬結果。 第 2 步：揭露第 [1, 2, 3] 題的全班真實答對率後，全班能力平移 +0.55。"
+ },
+ "students": [
+  {
+   "sid": "s01",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「Algorithms that learn from teachers」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "「How do humans classify」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "The structure of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "完全跟不上「An example of classifying fruits」。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "「How to build a decision tree? When we …」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Feature selection」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "「I-Nearest-Neighbor (1NN)」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "The effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "KNN Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Thanks，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「How do humans classify」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "這題跟「The structure of a decision tree」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "投影片「I-Nearest-Neighbor (1NN)」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「K-Nearest-Neighbors (KNN)」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "投影片「The Effect of K」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s02",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "Algorithms that learn from teachers，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「What is a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "The structure of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "More details of a decision tree……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "An example of classifying fruits……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「How to build a decision tree? When we …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "「Feature selection」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「I-Nearest-Neighbor (1NN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The Effect of K」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「KNN Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Thanks」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "這題跟「The structure of a decision tree」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "投影片「I-Nearest-Neighbor (1NN)」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "這題跟「The Effect of K」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s03",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "How do humans classify，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "完全跟不上「What is a decision tree」。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「The structure of a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "More details of a decision tree……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "How to build a decision tree? When we … 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "「Machine Learning: Geometric View」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "K-Nearest-Neighbors (KNN)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「The effect of K」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The Effect of K」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Thanks，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "features",
+     "correct": 1,
+     "reason": "投影片「How do humans classify」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "投影片「The structure of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「More details of a decision tree」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "投影片「I-Nearest-Neighbor (1NN)」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "這題跟「The Effect of K」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s04",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「Algorithms that learn from teachers」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「How do humans classify」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "The structure of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「More details of a decision tree」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "How to build a decision tree? When we … 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Feature selection」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "The effect of K……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "KNN Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "Thanks……好像懂又好像不懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "features",
+     "correct": 1,
+     "reason": "這題跟「How do humans classify」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "投影片「The structure of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「More details of a decision tree」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「I-Nearest-Neighbor (1NN)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "這題跟「The Effect of K」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s05",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「Algorithms that learn from teachers」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "How do humans classify，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "「What is a decision tree」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "The structure of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "More details of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "An example of classifying fruits……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "「How to build a decision tree? When we …」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Machine Learning: Geometric View」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "I-Nearest-Neighbor (1NN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「The effect of K」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "KNN Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "features",
+     "correct": 1,
+     "reason": "投影片「How do humans classify」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The structure of a decision tree」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "投影片「I-Nearest-Neighbor (1NN)」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "這題跟「The Effect of K」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s06",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "lost",
+     "thought": "完全跟不上「Algorithms that learn from teachers」。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「How do humans classify」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "What is a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "The structure of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「More details of a decision tree」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「An example of classifying fruits」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Machine Learning: Geometric View，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「I-Nearest-Neighbor (1NN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "The Effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Thanks」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「How do humans classify」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "投影片「The structure of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「More details of a decision tree」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "這題跟「I-Nearest-Neighbor (1NN)」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "投影片「The Effect of K」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s07",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「Algorithms that learn from teachers」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "How do humans classify，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「What is a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "The structure of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "More details of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "How to build a decision tree? When we …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Feature selection」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Machine Learning: Geometric View，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「I-Nearest-Neighbor (1NN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "The effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The Effect of K」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "features",
+     "correct": 1,
+     "reason": "這題跟「How do humans classify」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "這題跟「The structure of a decision tree」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「More details of a decision tree」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "投影片「I-Nearest-Neighbor (1NN)」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "投影片「The Effect of K」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s08",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "How do humans classify，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "What is a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "The structure of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "More details of a decision tree……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Machine Learning: Geometric View」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "KNN Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Thanks，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "features",
+     "correct": 1,
+     "reason": "這題跟「How do humans classify」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "這題跟「The structure of a decision tree」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「More details of a decision tree」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "這題跟「I-Nearest-Neighbor (1NN)」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「K-Nearest-Neighbors (KNN)」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "投影片「The Effect of K」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s09",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「How do humans classify」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「The structure of a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "More details of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "How to build a decision tree? When we …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Feature selection，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Machine Learning: Geometric View」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "完全跟不上「I-Nearest-Neighbor (1NN)」。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "The effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「KNN Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Thanks」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "features",
+     "correct": 1,
+     "reason": "這題跟「How do humans classify」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "投影片「The structure of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「More details of a decision tree」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「K-Nearest-Neighbors (KNN)」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "投影片「The Effect of K」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s10",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "Algorithms that learn from teachers，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "How do humans classify，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「What is a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "The structure of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "How to build a decision tree? When we …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Feature selection」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「I-Nearest-Neighbor (1NN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「The effect of K」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "The Effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Thanks」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "這題跟「The structure of a decision tree」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「More details of a decision tree」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "這題跟「I-Nearest-Neighbor (1NN)」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「K-Nearest-Neighbors (KNN)」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "投影片「The Effect of K」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s11",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "How do humans classify，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "What is a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "More details of a decision tree……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "How to build a decision tree? When we …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "「Feature selection」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Machine Learning: Geometric View，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "I-Nearest-Neighbor (1NN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "The effect of K 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "KNN Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Thanks，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "投影片「The structure of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「More details of a decision tree」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "這題跟「I-Nearest-Neighbor (1NN)」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "投影片「The Effect of K」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s12",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「Algorithms that learn from teachers」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "How do humans classify，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「What is a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「The structure of a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「More details of a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "An example of classifying fruits……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「How to build a decision tree? When we …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「I-Nearest-Neighbor (1NN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「KNN Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "features",
+     "correct": 1,
+     "reason": "這題跟「How do humans classify」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "投影片「The structure of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「More details of a decision tree」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "投影片「I-Nearest-Neighbor (1NN)」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "這題跟「The Effect of K」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s13",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "Algorithms that learn from teachers，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "How do humans classify 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "The structure of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "More details of a decision tree……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「An example of classifying fruits」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「How to build a decision tree? When we …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Feature selection，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Machine Learning: Geometric View」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "I-Nearest-Neighbor (1NN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "The effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The Effect of K」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Thanks，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「How do humans classify」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "投影片「The structure of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "投影片「More details of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "投影片「I-Nearest-Neighbor (1NN)」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「K-Nearest-Neighbors (KNN)」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "這題跟「The Effect of K」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s14",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「The structure of a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「More details of a decision tree」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "An example of classifying fruits，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「How to build a decision tree? When we …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Machine Learning: Geometric View，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "The effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "The Effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「KNN Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "features",
+     "correct": 1,
+     "reason": "這題跟「How do humans classify」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "投影片「The structure of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「More details of a decision tree」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "這題跟「I-Nearest-Neighbor (1NN)」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「K-Nearest-Neighbors (KNN)」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "這題跟「The Effect of K」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s15",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「Algorithms that learn from teachers」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "What is a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "More details of a decision tree，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「An example of classifying fruits」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「How to build a decision tree? When we …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Machine Learning: Geometric View」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「K-Nearest-Neighbors (KNN)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "The effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The Effect of K」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "這題跟「The structure of a decision tree」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "投影片「I-Nearest-Neighbor (1NN)」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "投影片「The Effect of K」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s16",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "Algorithms that learn from teachers，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "How do humans classify，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「The structure of a decision tree」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「More details of a decision tree」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "How to build a decision tree? When we …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Feature selection，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "K-Nearest-Neighbors (KNN)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「The effect of K」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "The Effect of K，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "KNN Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Thanks」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「How do humans classify」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "Internal node, branch, leaf node (Internal node: Outlook, Humidity, Wind Branch: Sunny, Overcast... Leaf node: Yes, No)",
+     "correct": 1,
+     "reason": "投影片「The structure of a decision tree」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "Label x with the label of the closest example to x",
+     "correct": 1,
+     "reason": "投影片「I-Nearest-Neighbor (1NN)」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「K-Nearest-Neighbors (KNN)」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "K is too small: overfit K is too big: underfit",
+     "correct": 1,
+     "reason": "投影片「The Effect of K」有講到，我記得。"
+    }
+   ]
+  }
+ ]
+}

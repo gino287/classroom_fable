@@ -1,0 +1,3591 @@
+{
+ "format_version": "0.1",
+ "school": "elementary school",
+ "lecture_id": 7,
+ "source": "MOCK",
+ "step": 2,
+ "revealed_qids": [
+  1,
+  2,
+  3
+ ],
+ "settings": {
+  "model": "MOCK（公式產生，沒有用 LLM）",
+  "temperature": null,
+  "n_students": 16,
+  "seed": 20261111,
+  "mock_fidelity": 0.1,
+  "mock_bias": 1.22,
+  "notes": "假資料：由 data/make_mock.py 用公式和句型模板產生，不是模擬結果。 第 2 步：揭露第 [1, 2, 3] 題的全班真實答對率後，全班能力平移 -0.89。"
+ },
+ "students": [
+  {
+   "sid": "s01",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Reinforcement learning: the third way」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "History of reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「Key conponents of reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「An example of reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "AlphaGo，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Robot Control，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Value learning (V-learning)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "The details of V-learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「The details of V-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The value function considering future …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Q&A，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "The value function considering future …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 24,
+     "state": "lost",
+     "thought": "完全跟不上「Q-learning」。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 28,
+     "state": "understood",
+     "thought": "Autonomous Cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 29,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「History of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "這題跟「An example of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「The details of V-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Value learning (V-learning)」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Neural network: a more complicated sit…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Neural network: a more complicated sit…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s02",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "Outline……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Reinforcement learning: the third way，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "完全跟不上「The limitation of supervised / unsuper…」。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「History of reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "完全跟不上「Key conponents of reinforcement learning」。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「An example of reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Train machines to play games」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Robot Control，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "The details of V-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「The details of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "An classic example of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "The value function considering future … 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "The details of Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 28,
+     "state": "lost",
+     "thought": "完全跟不上「Autonomous Cars」。"
+    },
+    {
+     "slide_id": 29,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「History of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「The limitation of supervised / unsuper…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「The limitation of supervised / unsuper…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「An example of reinforcement learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Value learning (V-learning)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s03",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "lost",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "「The limitation of supervised / unsuper…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「History of reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「An example of reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Train machines to play games，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Value learning (V-learning)」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "The details of V-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "The details of V-learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The value function considering future …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Neural network: a more complicated sit…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "「An classic example of V-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "Autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 28,
+     "state": "lost",
+     "thought": "完全跟不上「Autonomous Cars」。"
+    },
+    {
+     "slide_id": 29,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Reinforcement learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「History of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「An example of reinforcement learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "這題跟「An example of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「The details of V-learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Neural network: a more complicated sit…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s04",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Reinforcement learning: the third way」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "「The limitation of supervised / unsuper…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "An example of reinforcement learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "An example of reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "AlphaGo 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Robot Control……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Value learning (V-learning)」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "The details of V-learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "The details of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "The details of V-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The value function considering future …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "Neural network: a more complicated sit………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "An classic example of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "lost",
+     "thought": "完全跟不上「The details of Q-learning」。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "「Autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 28,
+     "state": "understood",
+     "thought": "「Autonomous Cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 29,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「History of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「An example of reinforcement learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「An example of reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「The details of V-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Value learning (V-learning)」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Neural network: a more complicated sit…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s05",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "「ALGORITHMS THAT LEARN THROUGH TRIAL AN…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "Reinforcement learning: the third way 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "The limitation of supervised / unsuper…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "Reinforcement learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "History of reinforcement learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "An example of reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "完全跟不上「An example of reinforcement learning」。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Train machines to play games」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "AlphaGo……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Robot Control，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "完全跟不上「The details of V-learning」。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「The details of V-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "The details of V-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "The value function considering future …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「An classic example of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "「The value function considering future …」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 24,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 28,
+     "state": "confused",
+     "thought": "「Autonomous Cars」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 29,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「History of reinforcement learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「The limitation of supervised / unsuper…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The details of V-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Value learning (V-learning)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Neural network: a more complicated sit…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s06",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Reinforcement learning: the third way」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "The limitation of supervised / unsuper…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "History of reinforcement learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "Key conponents of reinforcement learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "An example of reinforcement learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "「AlphaGo」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「The details of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "The details of V-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "完全跟不上「The value function considering future …」。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "An classic example of V-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "完全跟不上「Q&A」。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "The value function considering future ………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "lost",
+     "thought": "完全跟不上「Q-learning」。"
+    },
+    {
+     "slide_id": 25,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 28,
+     "state": "lost",
+     "thought": "完全跟不上「Autonomous Cars」。"
+    },
+    {
+     "slide_id": 29,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「History of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「The limitation of supervised / unsuper…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「An example of reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The details of V-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Value learning (V-learning)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s07",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "「ALGORITHMS THAT LEARN THROUGH TRIAL AN…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Reinforcement learning: the third way」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "The limitation of supervised / unsuper… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「Reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "History of reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「Key conponents of reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "An example of reinforcement learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「AlphaGo」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "「Robot Control」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "The details of V-learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「The details of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「The details of V-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The value function considering future …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Neural network: a more complicated sit…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "An classic example of V-learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Q&A」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 24,
+     "state": "confused",
+     "thought": "「Q-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 25,
+     "state": "lost",
+     "thought": "完全跟不上「The details of Q-learning」。"
+    },
+    {
+     "slide_id": 26,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "「Autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 28,
+     "state": "confused",
+     "thought": "Autonomous Cars……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 29,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「The limitation of supervised / unsuper…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「An example of reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「An example of reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「The details of V-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Value learning (V-learning)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Neural network: a more complicated sit…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Neural network: a more complicated sit…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s08",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "「ALGORITHMS THAT LEARN THROUGH TRIAL AN…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "The limitation of supervised / unsuper………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "Reinforcement learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "History of reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "Key conponents of reinforcement learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「An example of reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "「An example of reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "「Train machines to play games」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Robot Control，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "完全跟不上「Value learning (V-learning)」。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「The details of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「The details of V-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "The value function considering future ………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Neural network: a more complicated sit…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「An classic example of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "完全跟不上「The value function considering future …」。"
+    },
+    {
+     "slide_id": 24,
+     "state": "confused",
+     "thought": "「Q-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "「Autonomous cars」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 28,
+     "state": "understood",
+     "thought": "Autonomous Cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 29,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Reinforcement learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「History of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "pac-man",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Value learning (V-learning)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Neural network: a more complicated sit…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Neural network: a more complicated sit…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s09",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "完全跟不上「Reinforcement learning」。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Key conponents of reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "An example of reinforcement learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "An example of reinforcement learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "AlphaGo 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Robot Control，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Value learning (V-learning)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "「The details of V-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "The details of V-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "The value function considering future …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Neural network: a more complicated sit…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "An classic example of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Q&A」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "「The value function considering future …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "confused",
+     "thought": "The details of Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "Autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 28,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 29,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「History of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "pac-man",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Value learning (V-learning)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s10",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Reinforcement learning: the third way，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "完全跟不上「The limitation of supervised / unsuper…」。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「History of reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Key conponents of reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Train machines to play games，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "AlphaGo，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Robot Control……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Value learning (V-learning)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「The details of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "The details of V-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The value function considering future …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Neural network: a more complicated sit…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「An classic example of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Q&A，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "The value function considering future … 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "The details of Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "Autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 28,
+     "state": "understood",
+     "thought": "「Autonomous Cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 29,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「History of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「The limitation of supervised / unsuper…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「An example of reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The details of V-learning」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Value learning (V-learning)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "A table/lookup dictionary",
+     "correct": 1,
+     "reason": "這題跟「Neural network: a more complicated sit…」那張的例子一樣。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s11",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "lost",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Reinforcement learning: the third way，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「History of reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "完全跟不上「Key conponents of reinforcement learning」。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "An example of reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「AlphaGo」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Value learning (V-learning)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "The details of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「The details of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「The value function considering future …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Neural network: a more complicated sit…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "An classic example of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Q&A」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "「The value function considering future …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "lost",
+     "thought": "Q-learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "Autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 28,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 29,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「History of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "這題跟「An example of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The details of V-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Value learning (V-learning)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Neural network: a more complicated sit…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s12",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ALGORITHMS THAT LEARN THROUGH TRIAL AN…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Reinforcement learning: the third way」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「History of reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Train machines to play games」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "AlphaGo 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Robot Control」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Value learning (V-learning)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "The details of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「An classic example of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "Q&A……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "完全跟不上「The value function considering future …」。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "Autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 28,
+     "state": "confused",
+     "thought": "Autonomous Cars……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 29,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「An example of reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Value learning (V-learning)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Neural network: a more complicated sit…」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s13",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Reinforcement learning: the third way，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「Reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "An example of reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Train machines to play games」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "The details of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "The details of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "An classic example of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Q&A」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "lost",
+     "thought": "完全跟不上「The details of Q-learning」。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 28,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 29,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「History of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "pac-man",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "這題跟「An example of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The details of V-learning」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Value learning (V-learning)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "A table/lookup dictionary",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s14",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ALGORITHMS THAT LEARN THROUGH TRIAL AN…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「The limitation of supervised / unsuper…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「History of reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "完全跟不上「Key conponents of reinforcement learning」。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "An example of reinforcement learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "An example of reinforcement learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "「AlphaGo」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「The details of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "The value function considering future ………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Q-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "「The details of Q-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 28,
+     "state": "understood",
+     "thought": "「Autonomous Cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 29,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「History of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The limitation of supervised / unsuper…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「An example of reinforcement learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "這題跟「An example of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「The details of V-learning」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Value learning (V-learning)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "A table/lookup dictionary",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Neural network: a more complicated sit…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s15",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「The limitation of supervised / unsuper…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "「An example of reinforcement learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Train machines to play games，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「AlphaGo」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Robot Control，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「The details of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "完全跟不上「Neural network: a more complicated sit…」。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Q&A，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "confused",
+     "thought": "The details of Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "Autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 28,
+     "state": "understood",
+     "thought": "「Autonomous Cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 29,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「History of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The limitation of supervised / unsuper…」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "pac-man",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "投影片「An example of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「The details of V-learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Value learning (V-learning)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s16",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Reinforcement learning: the third way」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「History of reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Key conponents of reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「An example of reinforcement learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "An example of reinforcement learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Train machines to play games，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "AlphaGo，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Robot Control，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "Value learning (V-learning) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "The details of V-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "The details of V-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Neural network: a more complicated sit…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「An classic example of V-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Q&A」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "The value function considering future … 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Q-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "The details of Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 28,
+     "state": "confused",
+     "thought": "Autonomous Cars……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 29,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「History of reinforcement learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「The limitation of supervised / unsuper…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「The limitation of supervised / unsuper…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "pac-man",
+     "correct": 1,
+     "reason": "這題跟「An example of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "location",
+     "correct": 1,
+     "reason": "這題跟「An example of reinforcement learning」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Value learning (V-learning)」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "A table/lookup dictionary",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Neural network: a more complicated sit…」有講到，我記得。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2855 @@
+{
+ "format_version": "0.1",
+ "school": "high school",
+ "lecture_id": 5,
+ "source": "MOCK",
+ "step": 2,
+ "revealed_qids": [
+  1,
+  2,
+  3
+ ],
+ "settings": {
+  "model": "MOCK（公式產生，沒有用 LLM）",
+  "temperature": null,
+  "n_students": 16,
+  "seed": 20261111,
+  "mock_fidelity": 0.9,
+  "mock_bias": -0.27,
+  "notes": "假資料：由 data/make_mock.py 用公式和句型模板產生，不是模擬結果。 第 2 步：揭露第 [1, 2, 3] 題的全班真實答對率後，全班能力平移 -0.00。"
+ },
+ "students": [
+  {
+   "sid": "s01",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「Other Application Scenarios」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Self-Organizing Feature Map (SOFM)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Self-Organizing Feature Map (SOFM)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example of Self-Organized Structure」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "How an SOFM learns……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "THANK YOU! Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Unsupervised learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「How an SOFM learns」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "投影片「Other Application Scenarios」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Some notes for SOFM」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example of Self-Organized Structure」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s02",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN ………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Unsupervised learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Other Application Scenarios，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Other Application Scenarios」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Self-Organizing Feature Map (SOFM)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "Self-Organizing Feature Map (SOFM)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "Example of Self-Organized Structure 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "完全跟不上「Example of Self-Organized Structure」。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "完全跟不上「How an SOFM learns」。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "How an SOFM learns……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Unsupervised learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「How an SOFM learns」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "投影片「Other Application Scenarios」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「How an SOFM learns」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s03",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Other Application Scenarios」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "完全跟不上「Other Application Scenarios」。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "Self-Organizing Feature Map (SOFM) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Example of Self-Organized Structure」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "Example of Self-Organized Structure……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "完全跟不上「How an SOFM learns」。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Unsupervised learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「How an SOFM learns」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "這題跟「Other Application Scenarios」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「How an SOFM learns」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Some notes for SOFM」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example of Self-Organized Structure」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s04",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Unsupervised learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "Self-Organizing Feature Map (SOFM)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Example of Self-Organized Structure」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "「Example of Self-Organized Structure」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "How an SOFM learns 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Some notes for SOFM」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Unsupervised learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「How an SOFM learns」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "投影片「Other Application Scenarios」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「How an SOFM learns」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Some notes for SOFM」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example of Self-Organized Structure」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s05",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「Other Application Scenarios」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Self-Organizing Feature Map (SOFM)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Example of Self-Organized Structure，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「How an SOFM learns」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Unsupervised learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Features」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "這題跟「Other Application Scenarios」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「How an SOFM learns」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "Similar inputs are placed in nearby locations.",
+     "correct": 1,
+     "reason": "投影片「Self-Organizing Feature Map (SOFM)」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example of Self-Organized Structure」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s06",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Other Application Scenarios」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Other Application Scenarios，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Self-Organizing Feature Map (SOFM)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "「Example of Self-Organized Structure」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "Some notes for SOFM……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Unsupervised learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「How an SOFM learns」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "投影片「Other Application Scenarios」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Some notes for SOFM」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Example of Self-Organized Structure」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s07",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Unsupervised learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Other Application Scenarios，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Self-Organizing Feature Map (SOFM)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "完全跟不上「Self-Organizing Feature Map (SOFM)」。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「How an SOFM learns」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Some notes for SOFM」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "THANK YOU! Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Unsupervised learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「How an SOFM learns」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "這題跟「Other Application Scenarios」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Some notes for SOFM」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example of Self-Organized Structure」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s08",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Unsupervised learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Other Application Scenarios，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example of Self-Organized Structure」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "Some notes for SOFM 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Unsupervised learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「How an SOFM learns」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "這題跟「Other Application Scenarios」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Features」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「How an SOFM learns」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Some notes for SOFM」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s09",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Unsupervised learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Self-Organizing Feature Map (SOFM)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Example of Self-Organized Structure」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「How an SOFM learns」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "How an SOFM learns 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「How an SOFM learns」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "THANK YOU! Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Unsupervised learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「How an SOFM learns」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "投影片「Other Application Scenarios」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Some notes for SOFM」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Example of Self-Organized Structure」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s10",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Unsupervised learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Other Application Scenarios」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Other Application Scenarios」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Self-Organizing Feature Map (SOFM)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "Self-Organizing Feature Map (SOFM) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Example of Self-Organized Structure」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "Some notes for SOFM……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Unsupervised learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "這題跟「Other Application Scenarios」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Some notes for SOFM」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s11",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Other Application Scenarios，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "Self-Organizing Feature Map (SOFM) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "Self-Organizing Feature Map (SOFM)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Example of Self-Organized Structure……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "完全跟不上「Example of Self-Organized Structure」。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「How an SOFM learns」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "How an SOFM learns……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "Some notes for SOFM 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Unsupervised learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「How an SOFM learns」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "這題跟「Other Application Scenarios」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Some notes for SOFM」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Example of Self-Organized Structure」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s12",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Unsupervised learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Other Application Scenarios，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "「Example of Self-Organized Structure」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Some notes for SOFM」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Unsupervised learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "這題跟「Other Application Scenarios」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example of Self-Organized Structure」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s13",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Unsupervised learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Other Application Scenarios，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "Self-Organizing Feature Map (SOFM)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "「Self-Organizing Feature Map (SOFM)」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "Example of Self-Organized Structure 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "完全跟不上「Example of Self-Organized Structure」。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "How an SOFM learns……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "完全跟不上「How an SOFM learns」。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Unsupervised learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "這題跟「Other Application Scenarios」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Some notes for SOFM」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s14",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Unsupervised learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Other Application Scenarios，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "Self-Organizing Feature Map (SOFM) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example of Self-Organized Structure」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "How an SOFM learns 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「How an SOFM learns」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「How an SOFM learns」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Unsupervised learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "投影片「Other Application Scenarios」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Some notes for SOFM」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example of Self-Organized Structure」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s15",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Unsupervised learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Features」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Self-Organizing Feature Map (SOFM)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "Example of Self-Organized Structure 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example of Self-Organized Structure」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "Some notes for SOFM 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Unsupervised learning」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「How an SOFM learns」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "投影片「Other Application Scenarios」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "這題跟「Features」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Some notes for SOFM」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Self-Organizing Feature Map (SOFM)」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s16",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Unsupervised learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Other Application Scenarios，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「Other Application Scenarios」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Features，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Self-Organizing Feature Map (SOFM)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "Self-Organizing Feature Map (SOFM) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "Example of Self-Organized Structure 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example of Self-Organized Structure」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「How an SOFM learns」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "How an SOFM learns，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "How an SOFM learns 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Unsupervised learning」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「How an SOFM learns」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "False",
+     "correct": 1,
+     "reason": "這題跟「Other Application Scenarios」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "AB",
+     "correct": 1,
+     "reason": "投影片「Features」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「How an SOFM learns」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "The initial neighbor size will cover the entire plane.",
+     "correct": 1,
+     "reason": "這題跟「Some notes for SOFM」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Self-Organizing Feature Map (SOFM)」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Example of Self-Organized Structure」那張我沒聽懂，用猜的。"
+    }
+   ]
+  }
+ ]
+}

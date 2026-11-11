@@ -1,0 +1,338 @@
+[
+ {
+  "school": "elementary school",
+  "lecture_id": 1,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L01_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 1,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L01_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 2,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L02_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 2,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L02_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 3,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L03_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 3,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L03_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 4,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L04_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 4,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L04_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 5,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L05_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 5,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L05_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 6,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L06_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 6,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L06_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 7,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L07_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 7,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L07_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 8,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L08_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 8,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L08_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 9,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L09_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 9,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L09_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 10,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L10_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 10,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L10_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 11,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L11_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 11,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L11_step2.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 12,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L12_step1.json"
+ },
+ {
+  "school": "elementary school",
+  "lecture_id": 12,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_elementary_L12_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 1,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L01_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 1,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L01_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 2,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L02_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 2,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L02_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 3,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L03_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 3,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L03_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 4,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L04_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 4,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L04_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 5,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L05_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 5,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L05_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 6,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L06_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 6,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L06_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 7,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L07_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 7,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L07_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 8,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L08_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 8,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L08_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 9,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L09_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 9,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L09_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 10,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L10_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 10,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L10_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 11,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L11_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 11,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L11_step2.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 12,
+  "step": 1,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L12_step1.json"
+ },
+ {
+  "school": "high school",
+  "lecture_id": 12,
+  "step": 2,
+  "source": "MOCK",
+  "file": "data/sim/MOCK_high_L12_step2.json"
+ }
+]

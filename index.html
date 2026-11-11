@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+  index.html — 模擬教室介面的唯一頁面
+
+  出處表
+  - 用途：Gino 碩論的呈現介面原型（任務說明見 TASK.md）
+  - 啟動：雙擊 start.bat，或在這個資料夾執行 python -m http.server 8000 後開 http://localhost:8000
+          （不能直接雙擊這個檔：瀏覽器不允許 file:// 的網頁讀取 JSON 資料檔）
+  - 技術：純 HTML + CSS + JavaScript，沒有框架、沒有建置步驟（理由見 docs/decision_log.md 決定 2）
+  - 程式分工：js/stats.js 算數字 → js/views.js 畫三個分頁和學生面板 → js/app.js 管狀態、播放、簡報模式
+-->
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>模擬教室｜AI 學生上了一堂課</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>模擬教室</h1>
+    <div class="seg" id="schoolSeg" role="group" aria-label="選學校版本"></div>
+    <div class="lecs" id="lecBtns" role="group" aria-label="選一堂課"></div>
+    <span class="spacer"></span>
+    <span class="mock-badge" id="sourceBadge"></span>
+    <button class="btn" id="presentBtn" title="一步一步走的展示模式（快捷鍵 P）">▶ 簡報模式</button>
+  </header>
+
+  <!-- 最上面的總結：10 秒內看懂「全班卡在哪、模擬跟真實像不像」 -->
+  <section class="summary" id="summary"></section>
+
+  <nav class="tabs" id="tabs"></nav>
+  <main id="view"></main>
+
+  <aside id="drawer" class="drawer" aria-label="單一學生"></aside>
+  <div id="tooltip" class="tooltip" hidden></div>
+
+  <footer class="present-bar" id="presentBar" hidden></footer>
+
+  <script src="js/stats.js"></script>
+  <script src="js/views.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+# ===== 機密（絕對不要推上去）=====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ===== Python =====
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ===== 第三方原始碼（有自己的 .git，要用時重新 clone）=====
+# git clone https://github.com/songlinxu/ClassroomSimulacra.git external/ClassroomSimulacra
+external/
+
+# ===== 系統 / 編輯器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# ===== Claude Code 本機設定 =====
+.claude/settings.local.json

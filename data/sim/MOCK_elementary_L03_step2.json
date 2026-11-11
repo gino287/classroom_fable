@@ -1,0 +1,3351 @@
+{
+ "format_version": "0.1",
+ "school": "elementary school",
+ "lecture_id": 3,
+ "source": "MOCK",
+ "step": 2,
+ "revealed_qids": [
+  1,
+  2,
+  3
+ ],
+ "settings": {
+  "model": "MOCK（公式產生，沒有用 LLM）",
+  "temperature": null,
+  "n_students": 16,
+  "seed": 20261111,
+  "mock_fidelity": 0.5,
+  "mock_bias": 1.26,
+  "notes": "假資料：由 data/make_mock.py 用公式和句型模板產生，不是模擬結果。 第 2 步：揭露第 [1, 2, 3] 題的全班真實答對率後，全班能力平移 -0.66。"
+ },
+ "students": [
+  {
+   "sid": "s01",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "Outline……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「The delta rule」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「Computing the output」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Computing the output」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example: Weight change for the 'x' neu…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "完全跟不上「Example 2: Weight change for the 'x' n…」。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "「Example 3: Weight change for the 'x' n…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Summary」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Backpropagation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Change in the Computation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "「Change in the Computation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "Change in the Computation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 24,
+     "state": "lost",
+     "thought": "完全跟不上「Error back propagation」。"
+    },
+    {
+     "slide_id": 25,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Changing the connection weight」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Change in the Computation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 11,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Summary」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s02",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN ………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "完全跟不上「A simple network (more details)」。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "Comparing the output to the desired ou… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "完全跟不上「Outline」。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Changing the connection weight，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "完全跟不上「Backpropagation」。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "Change in the Computation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "Change in the Computation 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Changing the connection weight」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Example 3: Weight change for the 'x' n…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Change in the Computation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Change in the Computation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s03",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "lost",
+     "thought": "Outline 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Supervised learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "A simple network (more details) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "The delta rule……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Computing the output，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Comparing the output to the desired ou…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example: Weight change for the 'x' neu…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Example 2: Weight change for the 'x' n………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Summary」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Backpropagation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Change in the Computation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "Change in the Computation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "Change in the Computation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "「Change in the Computation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "lost",
+     "thought": "完全跟不上「Summary」。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "BC",
+     "correct": 1,
+     "reason": "投影片「Outline」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Changing the connection weight」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Changing the connection weight」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "4",
+     "correct": 1,
+     "reason": "投影片「Example 3: Weight change for the 'x' n…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Change in the Computation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Change in the Computation」那張的例子一樣。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Summary」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s04",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "A simple network (more details)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "Computing the output……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Computing the output」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "Outline 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Example: Weight change for the 'x' neu…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "Example 2: Weight change for the 'x' n… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Example 3: Weight change for the 'x' n…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "Backpropagation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Change in the Computation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "「Change in the Computation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "4",
+     "correct": 1,
+     "reason": "這題跟「Example 3: Weight change for the 'x' n…」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Change in the Computation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Summary」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s05",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Supervised learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「A simple network (more details)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Computing the output，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Comparing the output to the desired ou…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Example 2: Weight change for the 'x' n………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "「Change in the Computation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 24,
+     "state": "confused",
+     "thought": "Error back propagation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Changing the connection weight」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Changing the connection weight」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example 3: Weight change for the 'x' n…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Change in the Computation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s06",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "「Supervised learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「A simple network (more details)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「Computing the output」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Comparing the output to the desired ou…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "Changing the connection weight 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Example: Weight change for the 'x' neu…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "Example 2: Weight change for the 'x' n… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "Example 3: Weight change for the 'x' n………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Summary」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "「Backpropagation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "Backpropagation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Change in the Computation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "「Change in the Computation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Changing the connection weight」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "4",
+     "correct": 1,
+     "reason": "這題跟「Example 3: Weight change for the 'x' n…」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "投影片「The delta rule」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Change in the Computation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Change in the Computation」那張的例子一樣。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s07",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN ………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "lost",
+     "thought": "完全跟不上「Outline」。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Supervised learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「The delta rule」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Comparing the output to the desired ou…」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "Changing the connection weight 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Example: Weight change for the 'x' neu…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Example 2: Weight change for the 'x' n…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "Change in the Computation 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "Change in the Computation 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Error back propagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "lost",
+     "thought": "完全跟不上「Summary」。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "BC",
+     "correct": 1,
+     "reason": "這題跟「Outline」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Changing the connection weight」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "4",
+     "correct": 1,
+     "reason": "投影片「Example 3: Weight change for the 'x' n…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Change in the Computation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「Summary」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s08",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "A simple network (more details)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「The delta rule」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Computing the output」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Computing the output」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Comparing the output to the desired ou…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "Changing the connection weight 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Summary」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Change in the Computation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "Change in the Computation 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "Change in the Computation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "lost",
+     "thought": "Error back propagation 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Changing the connection weight」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example 3: Weight change for the 'x' n…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Change in the Computation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Change in the Computation」那張的例子一樣。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s09",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Supervised learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "The delta rule……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Computing the output」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Comparing the output to the desired ou…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Changing the connection weight……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "Example 2: Weight change for the 'x' n… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Example 3: Weight change for the 'x' n…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "「Backpropagation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Backpropagation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Error back propagation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Changing the connection weight」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "4",
+     "correct": 1,
+     "reason": "投影片「Example 3: Weight change for the 'x' n…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "投影片「The delta rule」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Change in the Computation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Summary」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s10",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Supervised learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "The delta rule 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Computing the output，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Comparing the output to the desired ou…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Changing the connection weight，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example: Weight change for the 'x' neu…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "完全跟不上「Summary」。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "Change in the Computation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "「Change in the Computation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Change in the Computation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "「Change in the Computation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Error back propagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Changing the connection weight」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Example 3: Weight change for the 'x' n…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Change in the Computation」那張的例子一樣。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s11",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "Outline……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Supervised learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "A simple network (more details)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "The delta rule 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "Example: Weight change for the 'x' neu………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "Example 3: Weight change for the 'x' n… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "完全跟不上「Backpropagation」。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "「Change in the Computation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Change in the Computation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Changing the connection weight」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Changing the connection weight」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "投影片「The delta rule」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Change in the Computation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Change in the Computation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s12",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Supervised learning」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "A simple network (more details)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "完全跟不上「The delta rule」。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Computing the output，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Computing the output」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Changing the connection weight」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Example: Weight change for the 'x' neu…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Example 2: Weight change for the 'x' n…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Backpropagation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "「Change in the Computation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "Change in the Computation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "BC",
+     "correct": 1,
+     "reason": "投影片「Outline」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Changing the connection weight」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "4",
+     "correct": 1,
+     "reason": "投影片「Example 3: Weight change for the 'x' n…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Change in the Computation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Change in the Computation」那張的例子一樣。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Summary」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s13",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "A simple network (more details)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "The delta rule 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "完全跟不上「Computing the output」。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Computing the output」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Comparing the output to the desired ou…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Changing the connection weight，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Example: Weight change for the 'x' neu…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Example 2: Weight change for the 'x' n…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "「Change in the Computation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Error back propagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "confused",
+     "thought": "「Summary」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "BC",
+     "correct": 1,
+     "reason": "這題跟「Outline」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "4",
+     "correct": 1,
+     "reason": "這題跟「Example 3: Weight change for the 'x' n…」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Change in the Computation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Change in the Computation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s14",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Supervised learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "A simple network (more details)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Computing the output」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Comparing the output to the desired ou…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Changing the connection weight……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example: Weight change for the 'x' neu…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Example 2: Weight change for the 'x' n…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Example 3: Weight change for the 'x' n…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Backpropagation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Backpropagation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Change in the Computation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "BC",
+     "correct": 1,
+     "reason": "投影片「Outline」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "4",
+     "correct": 1,
+     "reason": "這題跟「Example 3: Weight change for the 'x' n…」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Change in the Computation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Change in the Computation」那張的例子一樣。"
+    },
+    {
+     "qid": 11,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Summary」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s15",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ARTIFICIAL NEURAL NETWORKS THAT LEARN …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "lost",
+     "thought": "完全跟不上「Outline」。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "The delta rule 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Computing the output」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Computing the output」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Changing the connection weight，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Example: Weight change for the 'x' neu…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Example 2: Weight change for the 'x' n………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "完全跟不上「Backpropagation」。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Change in the Computation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "Change in the Computation 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Error back propagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "lost",
+     "thought": "THANKS 是什麼？老師講太快了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Changing the connection weight」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Changing the connection weight」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "4",
+     "correct": 1,
+     "reason": "投影片「Example 3: Weight change for the 'x' n…」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The delta rule」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「The delta rule」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Summary」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s16",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ARTIFICIAL NEURAL NETWORKS THAT LEARN …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "lost",
+     "thought": "Outline 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Supervised learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「A simple network (more details)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "The delta rule……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Computing the output，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Changing the connection weight」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Example: Weight change for the 'x' neu…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "完全跟不上「Example 3: Weight change for the 'x' n…」。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "「Backpropagation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Backpropagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "完全跟不上「Change in the Computation」。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Error back propagation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "ABC",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Changing the connection weight」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Changing the connection weight」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Change in the Computation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「The delta rule」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Change in the Computation」有講到，我記得。"
+    },
+    {
+     "qid": 11,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Summary」那張的例子一樣。"
+    }
+   ]
+  }
+ ]
+}

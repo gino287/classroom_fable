@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+  game.html — 模擬教室「觀眾版」：像素風的教室場景，給一般觀眾看
+
+  出處表
+  - 用途：第二種前端。index.html 是「研究員版」（資訊密、看數據用），這一頁是「觀眾版」（一次只講一件事）
+  - 資料：跟研究員版讀同一份（data/lectures_real.json ＋ data/sim/），沒有另外的資料檔
+  - 啟動：雙擊 start_game.bat，或 python -m http.server 8000 後開 http://localhost:8000/game.html
+  - 技術：純 HTML + CSS + JavaScript，場景用 canvas 一格一格畫，沒有圖片檔、沒有函式庫（理由見 docs/decision_log.md 決定 15–17）
+  - 程式分工：js/stats.js 算數字（跟研究員版共用）→ js/game/sprites.js 像素畫 → js/game/scene.js 場景和動畫
+              → js/game/game.js 狀態、右側面板、時間軸、旁白
+-->
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>模擬教室（觀眾版）｜AI 學生上了一堂課</title>
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <header class="hud">
+    <h1>模擬教室<small>觀眾版</small></h1>
+    <div class="seg" id="schoolSeg" role="group" aria-label="選學校版本"></div>
+    <div class="lecpick" id="lecPick" role="group" aria-label="選一堂課"></div>
+    <span class="spacer"></span>
+    <span class="mock-badge" id="sourceBadge"></span>
+    <button class="btn" data-act="help">？怎麼看</button>
+    <a class="btn" id="proLink" href="index.html" title="資訊比較密的版本，看詳細數據用">研究員版 ↗</a>
+  </header>
+
+  <div class="main" id="main">
+    <section class="stage" id="stage">
+      <!-- 場景：canvas 畫教室和小人；overlay 是疊在上面的 HTML（中文的想法泡泡用 HTML 才清楚） -->
+      <div class="scenewrap" id="sceneWrap">
+        <canvas id="scene" width="320" height="200" aria-label="教室場景：點學生看他的想法"></canvas>
+        <div class="overlay" id="overlay"></div>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="dialog" id="dialog"></div>
+    </section>
+    <aside class="side" id="side"></aside>
+  </div>
+
+  <footer class="timeline" id="timeline"></footer>
+
+  <div class="help" id="help" hidden></div>
+  <div id="tooltip" class="tooltip" hidden></div>
+
+  <script src="js/stats.js"></script>
+  <script src="js/game/sprites.js"></script>
+  <script src="js/game/scene.js"></script>
+  <script src="js/game/game.js"></script>
+</body>
+</html>

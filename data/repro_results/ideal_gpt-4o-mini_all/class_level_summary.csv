@@ -1,0 +1,25 @@
+school,lecture,n_questions,n_students,spearman,mae
+elementary school,1,5,16,0.412,0.438
+elementary school,2,4,7,0.816,0.321
+elementary school,3,6,13,0.882,0.192
+elementary school,4,1,9,,0.444
+elementary school,5,5,7,0.725,0.6
+elementary school,6,5,13,0.0,0.462
+elementary school,7,6,13,0.0,0.256
+elementary school,8,5,10,0.892,0.12
+elementary school,9,5,9,-0.162,0.511
+elementary school,10,5,9,-0.177,0.267
+elementary school,11,3,12,-0.5,0.417
+elementary school,12,5,9,0.344,0.244
+high school,1,5,5,,0.8
+high school,2,5,2,0.304,0.4
+high school,3,7,4,0.446,0.214
+high school,4,1,4,,0.25
+high school,5,5,2,,0.8
+high school,6,5,2,0.125,0.4
+high school,7,5,4,0.631,0.25
+high school,8,5,2,,0.0
+high school,9,5,4,0.368,0.25
+high school,10,6,4,-0.426,0.458
+high school,11,4,3,0.0,0.417
+high school,12,5,4,0.559,0.15

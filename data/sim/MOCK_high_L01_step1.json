@@ -1,0 +1,3331 @@
+{
+ "format_version": "0.1",
+ "school": "high school",
+ "lecture_id": 1,
+ "source": "MOCK",
+ "step": 1,
+ "revealed_qids": [],
+ "settings": {
+  "model": "MOCK（公式產生，沒有用 LLM）",
+  "temperature": null,
+  "n_students": 16,
+  "seed": 20261111,
+  "mock_fidelity": 0.7,
+  "mock_bias": 0.32,
+  "notes": "假資料：由 data/make_mock.py 用公式和句型模板產生，不是模擬結果。"
+ },
+ "students": [
+  {
+   "sid": "s01",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "WHAT IS ARTIFICIAL INTELLIGENCE，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "Artificial intelligence everywhere 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Birth of AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Artificial Intelligence，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Logic used in AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "Problems with logic-based AI 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "「Statistics」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "Example of statistics 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Bayes’ Rule，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Example……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "完全跟不上「Statistics in AI」。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Artificial Neural Network」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Artificial Neural Network」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "lost",
+     "thought": "完全跟不上「ANN learning algorithms」。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Logic used in AI」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Three ways of learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Three ways of learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Logic」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s02",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "Outline……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "Artificial intelligence everywhere 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Logic used in AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Problems with logic-based AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Outline」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "完全跟不上「Statistics」。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Example of statistics……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "Bayes’ Rule 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Example」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "完全跟不上「Statistics in AI」。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "「Brain」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Artificial Neural Network」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "「Artificial Neural Network」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "「Three ways of learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "confused",
+     "thought": "「ANN learning algorithms」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 27,
+     "state": "lost",
+     "thought": "完全跟不上「Three ways of learning」。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Logic used in AI」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Three ways of learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Statistics」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s03",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "lost",
+     "thought": "WHAT IS ARTIFICIAL INTELLIGENCE 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Artificial intelligence everywhere……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "Artificial Intelligence 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Statistics，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Example of statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Example，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Example」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Artificial Neural Network」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "ANN learning algorithms，跟我想的差不多。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "1/6",
+     "correct": 1,
+     "reason": "投影片「Statistics」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "投影片「Problems with logic-based AI」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s04",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "lost",
+     "thought": "完全跟不上「Outline」。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Birth of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Artificial Intelligence，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「Logic」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Problems with logic-based AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "Bayes’ Rule 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "完全跟不上「Example」。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Artificial Neural Network」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "「Artificial Neural Network」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "Three ways of learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "「Three ways of learning」這裡有點亂，跟前面那張差在哪？"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Logic used in AI」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Three ways of learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Logic」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s05",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "WHAT IS ARTIFICIAL INTELLIGENCE，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Artificial intelligence everywhere」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Problems with logic-based AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Example of statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "Bayes’ Rule……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "Example 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Statistics in AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "Three ways of learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "Three ways of learning……好像懂又好像不懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Three ways of learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "1/6",
+     "correct": 1,
+     "reason": "這題跟「Statistics」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "投影片「Problems with logic-based AI」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Logic」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s06",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "lost",
+     "thought": "WHAT IS ARTIFICIAL INTELLIGENCE 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "「Birth of AI」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「Artificial Intelligence」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「Logic」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Logic used in AI」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Problems with logic-based AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Example of statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Statistics in AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Artificial Neural Network」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "Artificial Neural Network 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "完全跟不上「Three ways of learning」。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "Three ways of learning……好像懂又好像不懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Artificial Intelligence」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Logic used in AI」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Three ways of learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Three ways of learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Brain」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "P(A|B) = (0.07*0.1)/0.05 = 0.14",
+     "correct": 1,
+     "reason": "投影片「Logic」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s07",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「WHAT IS ARTIFICIAL INTELLIGENCE」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Artificial intelligence everywhere……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "「Birth of AI」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Artificial Intelligence」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "Logic……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Logic used in AI」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Problems with logic-based AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "完全跟不上「Bayes’ Rule」。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Statistics in AI」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Artificial Neural Network」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "完全跟不上「Three ways of learning」。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "confused",
+     "thought": "「ANN learning algorithms」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "Three ways of learning……好像懂又好像不懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Logic used in AI」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "1/6",
+     "correct": 1,
+     "reason": "這題跟「Statistics」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "投影片「Problems with logic-based AI」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s08",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Birth of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Artificial Intelligence，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Logic，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "Logic used in AI……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Problems with logic-based AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Statistics，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Example of statistics，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "完全跟不上「Example」。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Example，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Artificial Neural Network」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Logic used in AI」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Three ways of learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "投影片「Problems with logic-based AI」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "P(A|B) = (0.07*0.1)/0.05 = 0.14",
+     "correct": 1,
+     "reason": "投影片「Logic」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s09",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "Artificial intelligence everywhere 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Birth of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Logic，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Problems with logic-based AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Example of statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Bayes’ Rule」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Example……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Example，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "完全跟不上「Statistics in AI」。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Artificial Neural Network，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "完全跟不上「Artificial Neural Network」。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "Three ways of learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "Three ways of learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "confused",
+     "thought": "「ANN learning algorithms」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "Three ways of learning……好像懂又好像不懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Artificial Intelligence」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Logic used in AI」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Three ways of learning」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Statistics」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "投影片「Problems with logic-based AI」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Logic」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s10",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Birth of AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Artificial Intelligence，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Logic」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Problems with logic-based AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Statistics，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Example」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Example」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Statistics in AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Artificial Neural Network」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Artificial Neural Network，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "「Three ways of learning」這裡有點亂，跟前面那張差在哪？"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Artificial Intelligence」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Logic used in AI」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Three ways of learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "1/6",
+     "correct": 1,
+     "reason": "投影片「Statistics」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "P(A|B) = (0.07*0.1)/0.05 = 0.14",
+     "correct": 1,
+     "reason": "這題跟「Logic」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s11",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Artificial intelligence everywhere」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Birth of AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Artificial Intelligence，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "Logic……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Logic used in AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Example of statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Statistics in AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Artificial Neural Network」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "Three ways of learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "Three ways of learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "ANN learning algorithms，跟我想的差不多。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Logic used in AI」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "1/6",
+     "correct": 1,
+     "reason": "投影片「Statistics」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "P(A|B) = (0.07*0.1)/0.05 = 0.14",
+     "correct": 1,
+     "reason": "投影片「Logic」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s12",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「WHAT IS ARTIFICIAL INTELLIGENCE」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Artificial intelligence everywhere」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Birth of AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Logic，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Logic used in AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Bayes’ Rule」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Example，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "Example 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Artificial Neural Network」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "Artificial Neural Network 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「ANN learning algorithms」這張我聽得懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "confused",
+     "thought": "「Three ways of learning」這裡有點亂，跟前面那張差在哪？"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Artificial Intelligence」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Logic used in AI」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Statistics」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "P(A|B) = (0.07*0.1)/0.05 = 0.14",
+     "correct": 1,
+     "reason": "投影片「Logic」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s13",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「WHAT IS ARTIFICIAL INTELLIGENCE」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "lost",
+     "thought": "Outline 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Artificial intelligence everywhere」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Birth of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Logic，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Logic used in AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Problems with logic-based AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Bayes’ Rule，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Example」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Artificial Neural Network」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Artificial Neural Network，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「ANN learning algorithms」這張我聽得懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Logic used in AI」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Three ways of learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Outline」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "1/6",
+     "correct": 1,
+     "reason": "投影片「Statistics」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "P(A|B) = (0.07*0.1)/0.05 = 0.14",
+     "correct": 1,
+     "reason": "這題跟「Logic」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s14",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「WHAT IS ARTIFICIAL INTELLIGENCE」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Birth of AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Artificial Intelligence」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Logic used in AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Problems with logic-based AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Example of statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "Bayes’ Rule 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Example」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Statistics in AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Artificial Neural Network，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Artificial Neural Network，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Three ways of learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "ANN learning algorithms，跟我想的差不多。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Artificial Intelligence」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Logic used in AI」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「Three ways of learning」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "1/6",
+     "correct": 1,
+     "reason": "這題跟「Statistics」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "這題跟「Brain」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "P(A|B) = (0.07*0.1)/0.05 = 0.14",
+     "correct": 1,
+     "reason": "這題跟「Logic」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s15",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "Outline……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Birth of AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Logic used in AI」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Statistics」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Example of statistics，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Artificial Neural Network」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "lost",
+     "thought": "完全跟不上「ANN learning algorithms」。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Artificial Intelligence」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Logic used in AI」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Three ways of learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Three ways of learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Outline」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "1/6",
+     "correct": 1,
+     "reason": "投影片「Statistics」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "Neurons",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s16",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "lost",
+     "thought": "Outline 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Artificial intelligence everywhere，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "「Birth of AI」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Artificial Intelligence」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Logic」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Problems with logic-based AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Statistics，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Example of statistics，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "Bayes’ Rule 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Example」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Statistics in AI，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Artificial Neural Network，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "Artificial Neural Network 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Three ways of learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 25,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 26,
+     "state": "understood",
+     "thought": "「ANN learning algorithms」這張我聽得懂。"
+    },
+    {
+     "slide_id": 27,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Artificial Intelligence」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Logic used in AI」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Three ways of learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「Three ways of learning」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "1/6",
+     "correct": 1,
+     "reason": "投影片「Statistics」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "Synapses",
+     "correct": 1,
+     "reason": "投影片「Brain」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "The sum of the three angles of a right triangle is 180 degrees",
+     "correct": 1,
+     "reason": "這題跟「Problems with logic-based AI」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "P(A|B) = (0.07*0.1)/0.05 = 0.14",
+     "correct": 1,
+     "reason": "投影片「Logic」有講到，我記得。"
+    }
+   ]
+  }
+ ]
+}

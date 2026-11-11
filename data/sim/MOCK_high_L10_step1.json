@@ -1,0 +1,3027 @@
+{
+ "format_version": "0.1",
+ "school": "high school",
+ "lecture_id": 10,
+ "source": "MOCK",
+ "step": 1,
+ "revealed_qids": [],
+ "settings": {
+  "model": "MOCK（公式產生，沒有用 LLM）",
+  "temperature": null,
+  "n_students": 16,
+  "seed": 20261111,
+  "mock_fidelity": 0.3,
+  "mock_bias": 0.25,
+  "notes": "假資料：由 data/make_mock.py 用公式和句型模板產生，不是模擬結果。"
+ },
+ "students": [
+  {
+   "sid": "s01",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「SEEING ARTIFICIAL NEURAL NETWORKS」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "Health Industry 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "Facial recognition system 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Videos and images」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "Images are stored as pixels 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "What exactly is stored in computer? Re………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Neural networks (CNN) learn from label…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Convolutional neural networks components，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Convolution layer……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Kernel size, stride and the output size」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「ReLU, a math transformation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "Pooling layer……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "「Convolutional neural networks」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "AlexNet: A CNN model follows previous …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Images are stored as pixels」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「What exactly is stored in computer? Re…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Neural networks (CNN) learn from label…」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「ReLU, a math transformation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Pooling layer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Convolution layer in animation and why…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「AlexNet: A CNN model follows previous …」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s02",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "「Health Industry」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "完全跟不上「Videos and images」。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "Videos and images……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "The jigsaw puzzle……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Neural networks (CNN) learn from label…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Convolutional neural networks components，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "「Convolution layer in animation and why…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Kernel size, stride and the output size」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Pooling layer，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "完全跟不上「Feature maps」。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "Convolutional neural networks……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「AlexNet: A CNN model follows previous …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Images are stored as pixels」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Neural networks (CNN) learn from label…」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Convolution layer」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「ReLU, a math transformation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「ReLU, a math transformation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Pooling layer」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "1",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "2",
+     "correct": 1,
+     "reason": "投影片「Convolution layer in animation and why…」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Kernel size, stride and the output size」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「AlexNet: A CNN model follows previous …」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s03",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「SEEING ARTIFICIAL NEURAL NETWORKS」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Health Industry，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Facial recognition system，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Videos and images，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Images are stored as pixels，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「The jigsaw puzzle」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Neural networks (CNN) learn from label…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Convolutional neural networks components」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Convolution layer」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Convolution layer in animation and why…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "Kernel size, stride and the output size……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "Feature maps 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Convolutional neural networks，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "AlexNet: A CNN model follows previous … 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Images are stored as pixels」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「What exactly is stored in computer? Re…」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Neural networks (CNN) learn from label…」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Convolution layer」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「ReLU, a math transformation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「Pooling layer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "1",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Kernel size, stride and the output size」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「AlexNet: A CNN model follows previous …」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s04",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Health Industry」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Facial recognition system……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Videos and images，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Images are stored as pixels」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「What exactly is stored in computer? Re…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「The jigsaw puzzle」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Neural networks (CNN) learn from label…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「ReLU, a math transformation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "完全跟不上「Pooling layer」。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "Feature maps……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "THANK YOU! Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Neural networks (CNN) learn from label…」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「Convolution layer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「ReLU, a math transformation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Convolution layer in animation and why…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "2",
+     "correct": 1,
+     "reason": "投影片「Convolution layer in animation and why…」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Kernel size, stride and the output size」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 11,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s05",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Facial recognition system……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Videos and images」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Images are stored as pixels」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "「What exactly is stored in computer? Re…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Neural networks (CNN) learn from label…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Convolutional neural networks components，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Convolution layer」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "Convolution layer in animation and why… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Kernel size, stride and the output size」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「ReLU, a math transformation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Convolutional neural networks」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Neural networks (CNN) learn from label…」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Convolution layer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我把「ReLU, a math transformation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「ReLU, a math transformation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Pooling layer」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Convolution layer in animation and why…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Convolution layer in animation and why…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「AlexNet: A CNN model follows previous …」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s06",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「SEEING ARTIFICIAL NEURAL NETWORKS」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Facial recognition system，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Videos and images」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「Videos and images」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Images are stored as pixels，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "「The jigsaw puzzle」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Neural networks (CNN) learn from label………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Convolutional neural networks components，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Convolution layer，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "Convolution layer in animation and why………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Kernel size, stride and the output size」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "ReLU, a math transformation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Feature maps」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Convolutional neural networks，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Images are stored as pixels」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「What exactly is stored in computer? Re…」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Neural networks (CNN) learn from label…」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Convolution layer」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「ReLU, a math transformation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Convolution layer in animation and why…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Kernel size, stride and the output size」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 11,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「AlexNet: A CNN model follows previous …」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s07",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "完全跟不上「Facial recognition system」。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Images are stored as pixels，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「What exactly is stored in computer? Re…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Neural networks (CNN) learn from label…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Convolutional neural networks components，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Convolution layer in animation and why…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "Kernel size, stride and the output size……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Pooling layer」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "Feature maps 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「AlexNet: A CNN model follows previous …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Images are stored as pixels」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「What exactly is stored in computer? Re…」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Neural networks (CNN) learn from label…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「ReLU, a math transformation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Pooling layer」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Convolution layer in animation and why…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Kernel size, stride and the output size」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「AlexNet: A CNN model follows previous …」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s08",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "SEEING ARTIFICIAL NEURAL NETWORKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Facial recognition system，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Videos and images」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Videos and images，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Images are stored as pixels，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "The jigsaw puzzle，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Neural networks (CNN) learn from label…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Convolution layer in animation and why…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "ReLU, a math transformation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "完全跟不上「Feature maps」。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "「Convolutional neural networks」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Images are stored as pixels」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「What exactly is stored in computer? Re…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Neural networks (CNN) learn from label…」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Convolution layer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Pooling layer」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "1",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "2",
+     "correct": 1,
+     "reason": "投影片「Convolution layer in animation and why…」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Kernel size, stride and the output size」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「AlexNet: A CNN model follows previous …」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s09",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Health Industry」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Facial recognition system」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Images are stored as pixels，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「What exactly is stored in computer? Re…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Neural networks (CNN) learn from label…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Convolutional neural networks components，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Convolution layer，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "Convolution layer in animation and why… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Kernel size, stride and the output size」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Pooling layer，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Feature maps，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Convolutional neural networks，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "AlexNet: A CNN model follows previous … 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Images are stored as pixels」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「What exactly is stored in computer? Re…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Neural networks (CNN) learn from label…」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「ReLU, a math transformation」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「ReLU, a math transformation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Pooling layer」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Convolution layer in animation and why…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Convolution layer in animation and why…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「AlexNet: A CNN model follows previous …」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s10",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "SEEING ARTIFICIAL NEURAL NETWORKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Health Industry」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Facial recognition system……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "完全跟不上「Outline」。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "Videos and images……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Videos and images，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Images are stored as pixels，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「What exactly is stored in computer? Re…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "The jigsaw puzzle，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Neural networks (CNN) learn from label…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Convolution layer」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "Convolution layer in animation and why………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Kernel size, stride and the output size」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Feature maps」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "Convolutional neural networks……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "THANK YOU! Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Images are stored as pixels」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「What exactly is stored in computer? Re…」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Neural networks (CNN) learn from label…」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Convolution layer」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「ReLU, a math transformation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Pooling layer」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "1",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「AlexNet: A CNN model follows previous …」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s11",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "confused",
+     "thought": "「Outline」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Health Industry，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Facial recognition system」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Videos and images」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Images are stored as pixels」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "完全跟不上「What exactly is stored in computer? Re…」。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "The jigsaw puzzle……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Neural networks (CNN) learn from label…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "完全跟不上「Convolution layer」。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Kernel size, stride and the output size」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「ReLU, a math transformation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Pooling layer，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Feature maps」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Convolutional neural networks，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Images are stored as pixels」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Neural networks (CNN) learn from label…」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Convolution layer」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Pooling layer」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Convolution layer in animation and why…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Kernel size, stride and the output size」有講到，我記得。"
+    },
+    {
+     "qid": 11,
+     "answer": "D",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s12",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Facial recognition system……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "完全跟不上「Videos and images」。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "Images are stored as pixels……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "「The jigsaw puzzle」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Neural networks (CNN) learn from label…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Convolutional neural networks components，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Convolution layer in animation and why…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Kernel size, stride and the output size」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Pooling layer，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Convolutional neural networks」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "AlexNet: A CNN model follows previous …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Images are stored as pixels」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「What exactly is stored in computer? Re…」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Neural networks (CNN) learn from label…」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Convolution layer」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Pooling layer」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "1",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "2",
+     "correct": 1,
+     "reason": "投影片「Convolution layer in animation and why…」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Kernel size, stride and the output size」有講到，我記得。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「AlexNet: A CNN model follows previous …」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s13",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「SEEING ARTIFICIAL NEURAL NETWORKS」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Health Industry，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "Videos and images，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Images are stored as pixels，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「What exactly is stored in computer? Re…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「The jigsaw puzzle」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Convolutional neural networks components」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Convolution layer」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Convolution layer in animation and why…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Pooling layer」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Convolutional neural networks，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「AlexNet: A CNN model follows previous …」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「THANK YOU! Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Images are stored as pixels」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「What exactly is stored in computer? Re…」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Neural networks (CNN) learn from label…」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Convolution layer」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「ReLU, a math transformation」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「ReLU, a math transformation」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Pooling layer」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "1",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Convolution layer in animation and why…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Kernel size, stride and the output size」有講到，我記得。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「AlexNet: A CNN model follows previous …」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s14",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Health Industry」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Facial recognition system，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Videos and images，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Images are stored as pixels」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "The jigsaw puzzle，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Neural networks (CNN) learn from label…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "「Convolution layer in animation and why…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Kernel size, stride and the output size，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "ReLU, a math transformation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Pooling layer」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "Feature maps……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "THANK YOU! Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Images are stored as pixels」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「What exactly is stored in computer? Re…」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Neural networks (CNN) learn from label…」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Convolution layer」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「ReLU, a math transformation」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「ReLU, a math transformation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Pooling layer」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "1",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Convolution layer in animation and why…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Kernel size, stride and the output size」那張的例子一樣。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「AlexNet: A CNN model follows previous …」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s15",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「SEEING ARTIFICIAL NEURAL NETWORKS」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "Health Industry 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Images are stored as pixels，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「What exactly is stored in computer? Re…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "「Neural networks (CNN) learn from label…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Convolution layer」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Convolution layer in animation and why…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Kernel size, stride and the output size，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Pooling layer，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Feature maps」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "THANK YOU! Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Images are stored as pixels」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「What exactly is stored in computer? Re…」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Neural networks (CNN) learn from label…」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Convolution layer」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Pooling layer」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Convolution layer in animation and why…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "2",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Kernel size, stride and the output size」有講到，我記得。"
+    },
+    {
+     "qid": 11,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「AlexNet: A CNN model follows previous …」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s16",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "SEEING ARTIFICIAL NEURAL NETWORKS，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Health Industry」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Facial recognition system，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "「The jigsaw puzzle」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Convolution layer in animation and why…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Kernel size, stride and the output size」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "Pooling layer……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "Feature maps 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Convolutional neural networks」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "AlexNet: A CNN model follows previous …，跟我想的差不多。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "THANK YOU! Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Images are stored as pixels」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「What exactly is stored in computer? Re…」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Neural networks (CNN) learn from label…」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「ReLU, a math transformation」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「ReLU, a math transformation」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「Pooling layer」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "1",
+     "correct": 1,
+     "reason": "這題跟「Convolution layer in animation and why…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "2",
+     "correct": 1,
+     "reason": "投影片「Convolution layer in animation and why…」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Kernel size, stride and the output size」那張的例子一樣。"
+    },
+    {
+     "qid": 11,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「AlexNet: A CNN model follows previous …」那張我沒聽懂，用猜的。"
+    }
+   ]
+  }
+ ]
+}

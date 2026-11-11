@@ -1,0 +1,3095 @@
+{
+ "format_version": "0.1",
+ "school": "elementary school",
+ "lecture_id": 8,
+ "source": "MOCK",
+ "step": 2,
+ "revealed_qids": [
+  1,
+  2,
+  3
+ ],
+ "settings": {
+  "model": "MOCK（公式產生，沒有用 LLM）",
+  "temperature": null,
+  "n_students": 16,
+  "seed": 20261111,
+  "mock_fidelity": 0.5,
+  "mock_bias": 0.5,
+  "notes": "假資料：由 data/make_mock.py 用公式和句型模板產生，不是模擬結果。 第 2 步：揭露第 [1, 2, 3] 題的全班真實答對率後，全班能力平移 -0.03。"
+ },
+ "students": [
+  {
+   "sid": "s01",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Quick review: reinforcement learning a…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Q-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Q-learning details」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Q-learning details」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Q-learning details」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "A missing point: how to choose action?…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "完全跟不上「6 levels of driving automation」。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Under the framework of reinforcement l…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "完全跟不上「How do autonumous cars work? Lidar (li…」。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 21,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Thanks!Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Quick review: reinforcement learning a…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Q-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The steps of Q-Learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Q-learning details」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「6 levels of driving automation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "The responsibility for crashes or something else that applies or some else",
+     "correct": 1,
+     "reason": "投影片「Challenges with autonomous cars」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left",
+     "correct": 1,
+     "reason": "這題跟「Under the framework of reinforcement l…」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「How do autonumous cars work? Lidar (li…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "C",
+     "correct": 0,
+     "reason": "「Q-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「A missing point: how to choose action?…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s02",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "「ALGORITHMS THAT LEARN THROUGH TRIAL AN…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「The steps of Q-Learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "Q-learning details……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "A missing point: how to choose action?………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「Summary」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "lost",
+     "thought": "Outline 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "Definition 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "6 levels of driving automation 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "lost",
+     "thought": "完全跟不上「How do autonumous cars work? Lidar (li…」。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "完全跟不上「RL lectures in a slide」。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Thanks!Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Quick review: reinforcement learning a…」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Q-learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The steps of Q-Learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Q-learning details」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「6 levels of driving automation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Challenges with autonomous cars」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left",
+     "correct": 1,
+     "reason": "這題跟「Under the framework of reinforcement l…」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "D",
+     "correct": 0,
+     "reason": "「How do autonumous cars work? Lidar (li…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Q-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「A missing point: how to choose action?…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s03",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "lost",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "「Q-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "The steps of Q-Learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Q-learning details」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「A missing point: how to choose action?…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "完全跟不上「Definition」。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "6 levels of driving automation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Under the framework of reinforcement l…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「How do autonumous cars work? Autonomou…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「How do autonumous cars work? Lidar (li…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "「RL lectures in a slide」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Thanks!Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Quick review: reinforcement learning a…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Q-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The steps of Q-Learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Q-learning details」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「6 levels of driving automation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Challenges with autonomous cars」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Under the framework of reinforcement l…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「How do autonumous cars work? Lidar (li…」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Q-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「A missing point: how to choose action?…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s04",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ALGORITHMS THAT LEARN THROUGH TRIAL AN…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "Quick review: reinforcement learning a… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "The steps of Q-Learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Q-learning details」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Q-learning details」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Q-learning details」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "Definition……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「How do autonumous cars work? Autonomou…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "How do autonumous cars work? Lidar (li………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Challenges with autonomous cars」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "confused",
+     "thought": "Challenges with autonomous cars……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "完全跟不上「Summary」。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Thanks!Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Quick review: reinforcement learning a…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "Action",
+     "correct": 1,
+     "reason": "這題跟「Q-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The steps of Q-Learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Q-learning details」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「6 levels of driving automation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Challenges with autonomous cars」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「How do autonumous cars work? Lidar (li…」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Q-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「A missing point: how to choose action?…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s05",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Quick review: reinforcement learning a…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "The steps of Q-Learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "Q-learning details……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 11,
+     "state": "confused",
+     "thought": "「A missing point: how to choose action?…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Definition」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "6 levels of driving automation 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Under the framework of reinforcement l…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「How do autonumous cars work? Lidar (li…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Challenges with autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Challenges with autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "RL lectures in a slide 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Thanks!Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Quick review: reinforcement learning a…」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Q-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「6 levels of driving automation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Challenges with autonomous cars」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「How do autonumous cars work? Lidar (li…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Q-learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「A missing point: how to choose action?…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s06",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "「ALGORITHMS THAT LEARN THROUGH TRIAL AN…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Quick review: reinforcement learning a…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "Q-learning 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "完全跟不上「The steps of Q-Learning」。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "完全跟不上「Q-learning details」。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "Q-learning details……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "lost",
+     "thought": "A missing point: how to choose action?… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「Definition」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "「6 levels of driving automation」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Under the framework of reinforcement l…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "How do autonumous cars work? Autonomou… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Challenges with autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "完全跟不上「RL lectures in a slide」。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Thanks!Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Quick review: reinforcement learning a…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Q-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「The steps of Q-Learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Q-learning details」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「6 levels of driving automation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Challenges with autonomous cars」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「How do autonumous cars work? Lidar (li…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Q-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s07",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "「ALGORITHMS THAT LEARN THROUGH TRIAL AN…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Quick review: reinforcement learning a………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Q-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "The steps of Q-Learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "A missing point: how to choose action?…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "完全跟不上「6 levels of driving automation」。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "How do autonumous cars work? Lidar (li…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "「Challenges with autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "「RL lectures in a slide」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Quick review: reinforcement learning a…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "Action",
+     "correct": 1,
+     "reason": "這題跟「Q-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The steps of Q-Learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Q-learning details」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「6 levels of driving automation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "The responsibility for crashes or something else that applies or some else",
+     "correct": 1,
+     "reason": "這題跟「Challenges with autonomous cars」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left",
+     "correct": 1,
+     "reason": "這題跟「Under the framework of reinforcement l…」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「How do autonumous cars work? Lidar (li…」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我把「Q-learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「A missing point: how to choose action?…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s08",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Quick review: reinforcement learning a…」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Q-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「The steps of Q-Learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Q-learning details」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Q-learning details」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "A missing point: how to choose action?…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Definition，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "6 levels of driving automation……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Under the framework of reinforcement l…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "How do autonumous cars work? Autonomou…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "How do autonumous cars work? Lidar (li…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "lost",
+     "thought": "完全跟不上「Benefits of autonomous cars」。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "「Thanks!Q&A」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Quick review: reinforcement learning a…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Q-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The steps of Q-Learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Q-learning details」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "Of the Level 0-2, the human monitors the driving environment, of the level 3-5, the autonomous cars can monitors the driving environment.",
+     "correct": 1,
+     "reason": "投影片「6 levels of driving automation」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Challenges with autonomous cars」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left",
+     "correct": 1,
+     "reason": "這題跟「Under the framework of reinforcement l…」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「How do autonumous cars work? Lidar (li…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「A missing point: how to choose action?…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s09",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「The steps of Q-Learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Q-learning details」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "Q-learning details……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "A missing point: how to choose action?…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "Summary……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "Definition 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "「How do autonumous cars work? Autonomou…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Challenges with autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "RL lectures in a slide……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Thanks!Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Quick review: reinforcement learning a…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Q-learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Q-learning details」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「6 levels of driving automation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "The responsibility for crashes or something else that applies or some else",
+     "correct": 1,
+     "reason": "這題跟「Challenges with autonomous cars」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left",
+     "correct": 1,
+     "reason": "這題跟「Under the framework of reinforcement l…」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「How do autonumous cars work? Lidar (li…」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Q-learning」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「A missing point: how to choose action?…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s10",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Quick review: reinforcement learning a…」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "「Q-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「The steps of Q-Learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "Q-learning details……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「A missing point: how to choose action?…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Definition」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「6 levels of driving automation」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "Under the framework of reinforcement l… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "How do autonumous cars work? Autonomou… 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "How do autonumous cars work? Lidar (li…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "lost",
+     "thought": "Challenges with autonomous cars 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Challenges with autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "lost",
+     "thought": "Summary 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "「Quick review: reinforcement learning a…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "Action",
+     "correct": 1,
+     "reason": "投影片「Q-learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The steps of Q-Learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Q-learning details」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "Of the Level 0-2, the human monitors the driving environment, of the level 3-5, the autonomous cars can monitors the driving environment.",
+     "correct": 1,
+     "reason": "投影片「6 levels of driving automation」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "The responsibility for crashes or something else that applies or some else",
+     "correct": 1,
+     "reason": "這題跟「Challenges with autonomous cars」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「How do autonumous cars work? Lidar (li…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "C",
+     "correct": 0,
+     "reason": "我把「Q-learning」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「A missing point: how to choose action?…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s11",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Quick review: reinforcement learning a………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "Q-learning details 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "「Q-learning details」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "Definition 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "完全跟不上「Under the framework of reinforcement l…」。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "How do autonumous cars work? Autonomou…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「How do autonumous cars work? Lidar (li…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "confused",
+     "thought": "「Challenges with autonomous cars」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Challenges with autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我把「Quick review: reinforcement learning a…」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Q-learning」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The steps of Q-Learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Q-learning details」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "The responsibility for crashes or something else that applies or some else",
+     "correct": 1,
+     "reason": "這題跟「Challenges with autonomous cars」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left",
+     "correct": 1,
+     "reason": "投影片「Under the framework of reinforcement l…」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「How do autonumous cars work? Lidar (li…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Q-learning」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「A missing point: how to choose action?…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s12",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Quick review: reinforcement learning a…」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "confused",
+     "thought": "Q-learning……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Q-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Q-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「The steps of Q-Learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "confused",
+     "thought": "「Q-learning details」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「A missing point: how to choose action?…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "6 levels of driving automation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 18,
+     "state": "confused",
+     "thought": "How do autonumous cars work? Lidar (li………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Challenges with autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Challenges with autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "RL lectures in a slide 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Quick review: reinforcement learning a…」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "Action",
+     "correct": 1,
+     "reason": "投影片「Q-learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The steps of Q-Learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "「Q-learning details」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "Of the Level 0-2, the human monitors the driving environment, of the level 3-5, the autonomous cars can monitors the driving environment.",
+     "correct": 1,
+     "reason": "投影片「6 levels of driving automation」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "The responsibility for crashes or something else that applies or some else",
+     "correct": 1,
+     "reason": "這題跟「Challenges with autonomous cars」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「How do autonumous cars work? Lidar (li…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Q-learning」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「A missing point: how to choose action?…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s13",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "The steps of Q-Learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Q-learning details」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "A missing point: how to choose action?…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "Definition，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Under the framework of reinforcement l…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "Challenges with autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Thanks!Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Quick review: reinforcement learning a…」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "Action",
+     "correct": 1,
+     "reason": "這題跟「Q-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The steps of Q-Learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "B",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「6 levels of driving automation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "The responsibility for crashes or something else that applies or some else",
+     "correct": 1,
+     "reason": "投影片「Challenges with autonomous cars」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Under the framework of reinforcement l…」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 8,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Q-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「A missing point: how to choose action?…」那張的例子一樣。"
+    }
+   ]
+  },
+  {
+   "sid": "s14",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Quick review: reinforcement learning a…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "A missing point: how to choose action?…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「Definition」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "完全跟不上「6 levels of driving automation」。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Under the framework of reinforcement l…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「How do autonumous cars work? Lidar (li…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "Challenges with autonomous cars，跟我想的差不多。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "「Summary」這張我聽得懂。"
+    },
+    {
+     "slide_id": 23,
+     "state": "lost",
+     "thought": "完全跟不上「RL lectures in a slide」。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "Thanks!Q&A，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「Quick review: reinforcement learning a…」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "Action",
+     "correct": 1,
+     "reason": "這題跟「Q-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The steps of Q-Learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "投影片「Q-learning details」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「6 levels of driving automation」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "The responsibility for crashes or something else that applies or some else",
+     "correct": 1,
+     "reason": "投影片「Challenges with autonomous cars」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left",
+     "correct": 1,
+     "reason": "這題跟「Under the framework of reinforcement l…」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「How do autonumous cars work? Lidar (li…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "這題跟「Q-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「A missing point: how to choose action?…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s15",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Quick review: reinforcement learning a…」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Q-learning，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「Q-learning」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「Q-learning」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Q-learning details」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Q-learning details」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「A missing point: how to choose action?…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "「Summary」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "Definition 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Under the framework of reinforcement l…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "confused",
+     "thought": "How do autonumous cars work? Autonomou………好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「How do autonumous cars work? Lidar (li…」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「Challenges with autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "Summary，跟我想的差不多。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "A",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "Action",
+     "correct": 1,
+     "reason": "這題跟「Q-learning」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「The steps of Q-Learning」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Q-learning details」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「6 levels of driving automation」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Challenges with autonomous cars」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 7,
+     "answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left",
+     "correct": 1,
+     "reason": "投影片「Under the framework of reinforcement l…」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「How do autonumous cars work? Lidar (li…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Q-learning」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「A missing point: how to choose action?…」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s16",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的小學生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "ALGORITHMS THAT LEARN THROUGH TRIAL AN…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Q-learning details，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「Q-learning details」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "A missing point: how to choose action?…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "6 levels of driving automation，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "How do autonumous cars work? Lidar (li…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 20,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 21,
+     "state": "understood",
+     "thought": "「Benefits of autonomous cars」這張我聽得懂。"
+    },
+    {
+     "slide_id": 22,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 23,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 24,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "B",
+     "correct": 1,
+     "reason": "這題跟「Quick review: reinforcement learning a…」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "Action",
+     "correct": 1,
+     "reason": "投影片「Q-learning」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "C",
+     "correct": 1,
+     "reason": "投影片「The steps of Q-Learning」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "A",
+     "correct": 1,
+     "reason": "這題跟「Q-learning details」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "Of the Level 0-2, the human monitors the driving environment, of the level 3-5, the autonomous cars can monitors the driving environment.",
+     "correct": 1,
+     "reason": "投影片「6 levels of driving automation」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "The responsibility for crashes or something else that applies or some else",
+     "correct": 1,
+     "reason": "這題跟「Challenges with autonomous cars」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "Environments: Many components. Traffic lights, pedestrian Actions: Brake, accelerate, turn left",
+     "correct": 1,
+     "reason": "投影片「Under the framework of reinforcement l…」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "C",
+     "correct": 1,
+     "reason": "這題跟「How do autonumous cars work? Lidar (li…」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "D",
+     "correct": 1,
+     "reason": "投影片「Q-learning」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "B",
+     "correct": 1,
+     "reason": "投影片「A missing point: how to choose action?…」有講到，我記得。"
+    }
+   ]
+  }
+ ]
+}

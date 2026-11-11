@@ -1,0 +1,2691 @@
+{
+ "format_version": "0.1",
+ "school": "high school",
+ "lecture_id": 2,
+ "source": "MOCK",
+ "step": 1,
+ "revealed_qids": [],
+ "settings": {
+  "model": "MOCK（公式產生，沒有用 LLM）",
+  "temperature": null,
+  "n_students": 16,
+  "seed": 20261111,
+  "mock_fidelity": 0.7,
+  "mock_bias": -0.24,
+  "notes": "假資料：由 data/make_mock.py 用公式和句型模板產生，不是模擬結果。"
+ },
+ "students": [
+  {
+   "sid": "s01",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "THE DEVELOPMENT OF ARTIFICIAL INTELLIG…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Logic gates」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「neuron could act as a logic gate」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Ability to learn」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「The first neural networks winter」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「The second neural networks winter」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Computing speed accelerated (time!)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Current state of ANNs，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Summary screenshot，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Knows the neural network of brain」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Logic gates」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Logic gates」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Ability to learn」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The first neural networks winter」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「neuron could act as a logic gate」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Ability to learn」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「The second neural networks boom」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s02",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "「Knows the neural network of brain」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "完全跟不上「Knows the neural network of brain」。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "「neuron could act as a logic gate」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「How a neuron acts like a logic gate」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Computing speed accelerated (time!)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Current state of ANNs，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Summary screenshot」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Knows the neural network of brain」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Logic gates」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Logic gates」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Ability to learn」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「The first neural networks winter」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Current state of ANNs」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「neuron could act as a logic gate」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Ability to learn」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「The second neural networks boom」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s03",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Knows the neural network of brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "「Logic gates」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "完全跟不上「neuron could act as a logic gate」。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "How a neuron acts like a logic gate……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "「The second neural networks boom」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "Computing speed accelerated (time!)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Knows the neural network of brain」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Logic gates」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The first neural networks winter」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Current state of ANNs」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「The second neural networks boom」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s04",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "neuron could act as a logic gate 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "How a neuron acts like a logic gate……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Ability to learn，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "The first neural networks winter 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "The second neural networks boom……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「The second neural networks winter」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "Current state of ANNs 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Summary screenshot，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Knows the neural network of brain」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Logic gates」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Ability to learn」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The first neural networks winter」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Current state of ANNs」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "Neuron",
+     "correct": 1,
+     "reason": "投影片「neuron could act as a logic gate」有講到，我記得。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Ability to learn」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s05",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "none",
+    "description": "一個程度較弱、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "THE DEVELOPMENT OF ARTIFICIAL INTELLIG…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Knows the neural network of brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "「Knows the neural network of brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Logic gates，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "confused",
+     "thought": "「How a neuron acts like a logic gate」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Ability to learn」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "The second neural networks boom……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "The second neural networks winter 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Computing speed accelerated (time!)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Current state of ANNs，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Summary screenshot，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Knows the neural network of brain」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Logic gates」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Ability to learn」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「The first neural networks winter」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "The connection strength",
+     "correct": 1,
+     "reason": "這題跟「Ability to learn」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s06",
+   "persona": {
+    "level": "low",
+    "prior_knowledge": "some",
+    "description": "一個程度較弱、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "THE DEVELOPMENT OF ARTIFICIAL INTELLIG…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "Knows the neural network of brain……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "lost",
+     "thought": "完全跟不上「Logic gates」。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "How a neuron acts like a logic gate 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Ability to learn，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "The first neural networks winter 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "The second neural networks boom 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "「The second neural networks winter」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "「Computing speed accelerated (time!)」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 17,
+     "state": "lost",
+     "thought": "Current state of ANNs 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "「Summary screenshot」這張我聽得懂。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Knows the neural network of brain」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Logic gates」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 3,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Logic gates」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Ability to learn」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The first neural networks winter」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Current state of ANNs」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Ability to learn」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The second neural networks boom」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s07",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "THE DEVELOPMENT OF ARTIFICIAL INTELLIG…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Knows the neural network of brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「The first neural networks winter」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "The second neural networks boom，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "The second neural networks winter，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "lost",
+     "thought": "Computing speed accelerated (time!) 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Current state of ANNs」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Knows the neural network of brain」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Ability to learn」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 5,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「The first neural networks winter」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Current state of ANNs」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s08",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "THE DEVELOPMENT OF ARTIFICIAL INTELLIG…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Knows the neural network of brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "lost",
+     "thought": "Knows the neural network of brain 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "confused",
+     "thought": "Logic gates……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「neuron could act as a logic gate」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "How a neuron acts like a logic gate 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "Ability to learn……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「The second neural networks boom」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「The second neural networks winter」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Computing speed accelerated (time!)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Knows the neural network of brain」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 2,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Logic gates」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 3,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Logic gates」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Ability to learn」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The first neural networks winter」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Current state of ANNs」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「neuron could act as a logic gate」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "The connection strength",
+     "correct": 1,
+     "reason": "投影片「Ability to learn」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The second neural networks boom」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s09",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "none",
+    "description": "一個程度普通、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "confused",
+     "thought": "「THE DEVELOPMENT OF ARTIFICIAL INTELLIG…」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Logic gates，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "neuron could act as a logic gate……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "How a neuron acts like a logic gate 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "「Ability to learn」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "完全跟不上「The first neural networks winter」。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "The second neural networks boom，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「The second neural networks winter」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Computing speed accelerated (time!)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Current state of ANNs」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Summary screenshot，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Knows the neural network of brain」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Ability to learn」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Current state of ANNs」有講到，我記得。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「neuron could act as a logic gate」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s10",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Knows the neural network of brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Logic gates」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "How a neuron acts like a logic gate 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Ability to learn，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "The first neural networks winter……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "完全跟不上「The second neural networks boom」。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "lost",
+     "thought": "The second neural networks winter 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Current state of ANNs，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Knows the neural network of brain」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Ability to learn」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「The first neural networks winter」那張的例子一樣。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Current state of ANNs」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "The connection strength",
+     "correct": 1,
+     "reason": "投影片「Ability to learn」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s11",
+   "persona": {
+    "level": "average",
+    "prior_knowledge": "some",
+    "description": "一個程度普通、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 3,
+     "state": "confused",
+     "thought": "「Knows the neural network of brain」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「How a neuron acts like a logic gate」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "confused",
+     "thought": "Ability to learn……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "Computing speed accelerated (time!)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Current state of ANNs，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Logic gates」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Logic gates」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Ability to learn」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Current state of ANNs」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "Neuron",
+     "correct": 1,
+     "reason": "這題跟「neuron could act as a logic gate」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Ability to learn」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s12",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "neuron could act as a logic gate，跟我想的差不多。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "How a neuron acts like a logic gate，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "「Ability to learn」這張我聽得懂。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "「The first neural networks winter」這張我聽得懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「The second neural networks winter」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "Computing speed accelerated (time!)，跟我想的差不多。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Summary screenshot，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "「THANKS」這張我聽得懂。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Knows the neural network of brain」那張的例子一樣。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Ability to learn」有講到，我記得。"
+    },
+    {
+     "qid": 5,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「The first neural networks winter」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Current state of ANNs」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 9,
+     "answer": "The connection strength",
+     "correct": 1,
+     "reason": "這題跟「Ability to learn」那張的例子一樣。"
+    },
+    {
+     "qid": 10,
+     "answer": "Backpropagation",
+     "correct": 1,
+     "reason": "投影片「The second neural networks boom」有講到，我記得。"
+    }
+   ]
+  },
+  {
+   "sid": "s13",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "THE DEVELOPMENT OF ARTIFICIAL INTELLIG…，跟我想的差不多。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Logic gates，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「How a neuron acts like a logic gate」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Ability to learn，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "「The first neural networks winter」這裡有點亂，跟前面那張差在哪？"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "confused",
+     "thought": "The second neural networks winter……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Current state of ANNs，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Knows the neural network of brain」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Ability to learn」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「The first neural networks winter」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Current state of ANNs」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「neuron could act as a logic gate」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "The connection strength",
+     "correct": 1,
+     "reason": "投影片「Ability to learn」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「The second neural networks boom」那張的兩個概念搞混了。"
+    }
+   ]
+  },
+  {
+   "sid": "s14",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "none",
+    "description": "一個程度較好、沒學過 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "「Knows the neural network of brain」這張我聽得懂。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "Logic gates，跟我想的差不多。"
+    },
+    {
+     "slide_id": 6,
+     "state": "understood",
+     "thought": "「neuron could act as a logic gate」這張我聽得懂。"
+    },
+    {
+     "slide_id": 7,
+     "state": "lost",
+     "thought": "這張我放棄了，看不懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "Ability to learn，跟我想的差不多。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "lost",
+     "thought": "The second neural networks boom 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "The second neural networks winter，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Computing speed accelerated (time!)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Current state of ANNs」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Summary screenshot，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "THANKS，跟我想的差不多。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Knows the neural network of brain」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Ability to learn」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "F",
+     "correct": 1,
+     "reason": "投影片「The first neural networks winter」有講到，我記得。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「Current state of ANNs」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「neuron could act as a logic gate」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    }
+   ]
+  },
+  {
+   "sid": "s15",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 3,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "「Logic gates」這張我聽得懂。"
+    },
+    {
+     "slide_id": 6,
+     "state": "lost",
+     "thought": "完全跟不上「neuron could act as a logic gate」。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "How a neuron acts like a logic gate，跟我想的差不多。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 10,
+     "state": "confused",
+     "thought": "The first neural networks winter……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 12,
+     "state": "understood",
+     "thought": "The second neural networks boom，跟我想的差不多。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "The second neural networks winter，跟我想的差不多。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 16,
+     "state": "confused",
+     "thought": "Computing speed accelerated (time!)……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "「Current state of ANNs」這張我聽得懂。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "Summary screenshot，跟我想的差不多。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Knows the neural network of brain」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Logic gates」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Logic gates」那張的例子一樣。"
+    },
+    {
+     "qid": 4,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我記得好像是這個，但不確定。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The first neural networks winter」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Current state of ANNs」有講到，我記得。"
+    },
+    {
+     "qid": 8,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「neuron could act as a logic gate」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 9,
+     "answer": "The connection strength",
+     "correct": 1,
+     "reason": "投影片「Ability to learn」有講到，我記得。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The second neural networks boom」那張我沒聽懂，用猜的。"
+    }
+   ]
+  },
+  {
+   "sid": "s16",
+   "persona": {
+    "level": "high",
+    "prior_knowledge": "some",
+    "description": "一個程度較好、聽過一點 AI的高中生"
+   },
+   "slides": [
+    {
+     "slide_id": 1,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 2,
+     "state": "understood",
+     "thought": "Outline，跟我想的差不多。"
+    },
+    {
+     "slide_id": 3,
+     "state": "lost",
+     "thought": "完全跟不上「Knows the neural network of brain」。"
+    },
+    {
+     "slide_id": 4,
+     "state": "understood",
+     "thought": "Knows the neural network of brain，跟我想的差不多。"
+    },
+    {
+     "slide_id": 5,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 6,
+     "state": "confused",
+     "thought": "這張名詞好多，我不太確定意思。"
+    },
+    {
+     "slide_id": 7,
+     "state": "understood",
+     "thought": "「How a neuron acts like a logic gate」這張我聽得懂。"
+    },
+    {
+     "slide_id": 8,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 9,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 10,
+     "state": "lost",
+     "thought": "The first neural networks winter 是什麼？老師講太快了。"
+    },
+    {
+     "slide_id": 11,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 12,
+     "state": "confused",
+     "thought": "The second neural networks boom……好像懂又好像不懂。"
+    },
+    {
+     "slide_id": 13,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 14,
+     "state": "understood",
+     "thought": "「The second neural networks winter」這張我聽得懂。"
+    },
+    {
+     "slide_id": 15,
+     "state": "understood",
+     "thought": "「Outline」這張我聽得懂。"
+    },
+    {
+     "slide_id": 16,
+     "state": "understood",
+     "thought": "「Computing speed accelerated (time!)」這張我聽得懂。"
+    },
+    {
+     "slide_id": 17,
+     "state": "understood",
+     "thought": "Current state of ANNs，跟我想的差不多。"
+    },
+    {
+     "slide_id": 18,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    },
+    {
+     "slide_id": 19,
+     "state": "understood",
+     "thought": "這張的例子很清楚，懂了。"
+    }
+   ],
+   "answers": [
+    {
+     "qid": 1,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Knows the neural network of brain」有講到，我記得。"
+    },
+    {
+     "qid": 2,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Logic gates」那張的例子一樣。"
+    },
+    {
+     "qid": 3,
+     "answer": "T",
+     "correct": 1,
+     "reason": "投影片「Logic gates」有講到，我記得。"
+    },
+    {
+     "qid": 4,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Ability to learn」那張的例子一樣。"
+    },
+    {
+     "qid": 5,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "我把「The first neural networks winter」那張的兩個概念搞混了。"
+    },
+    {
+     "qid": 6,
+     "answer": "F",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 7,
+     "answer": "T",
+     "correct": 1,
+     "reason": "這題跟「Current state of ANNs」那張的例子一樣。"
+    },
+    {
+     "qid": 8,
+     "answer": "Neuron",
+     "correct": 1,
+     "reason": "這題跟「neuron could act as a logic gate」那張的例子一樣。"
+    },
+    {
+     "qid": 9,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「Ability to learn」那張我沒聽懂，用猜的。"
+    },
+    {
+     "qid": 10,
+     "answer": "（MOCK：答錯的自由作答）",
+     "correct": 0,
+     "reason": "「The second neural networks boom」那張我沒聽懂，用猜的。"
+    }
+   ]
+  }
+ ]
+}
